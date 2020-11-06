@@ -393,15 +393,31 @@ app.post("/auth/google/account/", function (req, res) {
 
 app.post("/auth/google/account/search/", function (req, res) {
   console.log(req.body);
-  res.send({
-    results: [],
+  Hotel.findOne({ _id: "INDKABLR" }, function (err, hotel) {
+    if (err) {
+      res.status(500).json({
+        error: "There was an error retrieving data from database.",
+      });
+    } else {
+      res.send({
+        results: hotel.hotelList,
+      });
+    }
   });
 });
 
 app.post("/search/", function (req, res) {
   console.log(req.body);
-  res.send({
-    results: [],
+  Hotel.findOne({ _id: "INDKABLR" }, function (err, hotel) {
+    if (err) {
+      res.status(500).json({
+        error: "There was an error retrieving data from database.",
+      });
+    } else {
+      res.send({
+        results: hotel.hotelList,
+      });
+    }
   });
 });
 
