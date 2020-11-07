@@ -69,11 +69,6 @@ const hotelListSchema = new mongoose.Schema({
     latitude: Number,
     longitude: Number,
   },
-  photos: [
-    {
-      img: String,
-    },
-  ],
 });
 
 const hotelSchema = new mongoose.Schema({
@@ -88,6 +83,16 @@ const hotelSchema = new mongoose.Schema({
     longitude: Number,
   },
   hotelList: [hotelListSchema],
+});
+
+const hotelServiceSchema = new mongoose.Schema({
+  hotelListSchema,
+  photos: [
+    {
+      img: String,
+    },
+  ],
+  services: [{}],
 });
 
 const User = new mongoose.model("PetraUser", userSchema);
@@ -420,6 +425,13 @@ app.post("/search/", function (req, res) {
     }
   });
 });
+
+app.get("/auth/google/account/:hotelID", function (req, res) {
+  const hotelid = req.params.hotelID;
+  Hotel.findOne;
+});
+
+app.get("/search/:hotelID", function (req, res) {});
 
 app.listen(process.env.PORT || 3001, function () {
   console.log("Server Running on PORT 3001");
