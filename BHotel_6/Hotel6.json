@@ -1,0 +1,132 @@
+{
+    "images":[
+        { "url": "1.jpg"},
+        { "url": "2.jpg"},
+        { "url": "3.jpg"},
+        { "url": "4.jpg"},
+        { "url": "5.jpg"},
+        { "url": "6.jpg"},
+        { "url": "7.jpg"},
+        { "url": "8.jpg"},
+        { "url": "9.jpg"},
+        { "url": "10.jpg"},
+        { "url": "11.jpg"}
+    ],
+    "title": "Holiday Village",
+    "ratings": "4",
+    "ratings_no": "228",
+    "location": "Bengaluru,Karnataka,India",
+    "sub_title": "Holiday Village, located in Jayanagar, Bangalore, is a popular choice for travelers.",
+    "guests": "4",
+    "beds": [true,true],
+    "bedrooms": [true,true],
+    "bathrooms": [true,true],
+    "description_short": "Holiday Village offers guests an array of room amenities including a flat screen TV, air conditioning, and a desk, and getting online is possible, as internet access is available.",
+    "the_space": "The hotel offers room service, 24 hour security, and express check-in and check-out, to make your visit even more pleasant. The property also features a pool and free breakfast. Guests arriving by vehicle have access to free parking. ",
+    "guest_access": "Take advantage of a wealth of unrivaled services and amenities at this Bangalore hotel. Top features of the hotel include 24-hour security, daily housekeeping, free Wi-Fi in all rooms, kitchen, taxi service.",
+    "guest_access_points": ["Best of all, Holiday Village makes it easy to experience many great Bengaluru attractions like Pyramid Valley International, Bangalore Palace, and Bull Temple, which are some popular architectural buildings. "," Holiday Village puts the best of Bengaluru at your fingertips, making your stay both relaxing and enjoyable."],
+    "other": "The hotel's recreational facilities, which include dart board, outdoor pool, children's playground, kids club, pool (kids) are designed for escape and relaxation. Enjoy unparalleled services and a truly prestigious address at the Holiday Village.",
+    "amenities": {
+        "lift": false,
+        "ac":true, 
+        "wifi": true, 
+        "parking":true, 
+        "laptop": true, 
+        "disabled": true, 
+        "tv": true, 
+        "infant": true
+    },
+    "amenities_basic": ["Wifi","TV","Air Conditioning","Laptop-friendly workspace","Facilities for disabled guests","Wheelchair accessible"],
+    "amenities_facilities": ["Dart Board", "Nightclub", "Free parking","Garden","Swimming pool","Karaoke","Table Tennis","Game room"],
+    "amenities_dining": ["Bar","Coffee shop","Restaurants","BBQ facilities","Kitchen","Room service","Poolside bar"],
+    "amenities_bb": ["Hair dryer", "Hangers", "Shampoo", "Bed linen","Laundry service","Safety deposit boxes","Dry cleaning","Daily housekeeping"],
+    "amenities_safety": ["Fire Extinguisher","Smoke alarm","Carbon monoxide"],
+    "amenities_notincluded": ["Elevator","Free bottled water"],
+    "rating_cleanliness": "3.5",
+    "rating_communication": "4",
+    "rating_checkin": "4",
+    "rating_accuracy": "4",
+    "rating_Loaction": "4",
+    "rating_value": "4",
+    "reviews": [
+        {"name": "Syed S", 
+         "dated": "October 2020", 
+         "review": " The ambience, spacious amenities and the best Swimming pool.\nFood in the restaurant is delicious and good quality.\nNice place for photography as well.\nOverall had a great and peaceful time. Highly recommended"
+    },
+        {"name": "Ashraf", 
+         "dated": "September 2020", 
+         "review": "Great housekeeping service they provided especially Mr.jayamoorthy housekeeping supervisor he one the fantastic person .good food and nice location overall Great experience thanks to park team.i am happy "
+    },
+        {"name": "Madhukar", 
+         "dated": "March 2020", 
+         "review": "Right from the booking process to our arrival at the resort all through our stay we had a wonderful time because of the care and great service provided by the staff led by Suraj Kalra. Great ambience good food and good service made it a memorable visit"
+    },
+        {"name": "Krishna Singhal", 
+         "dated": "February 2020", 
+         "review": " The location is good, not too far from the city. Good food and good ambience with so many trees and good seating arrangement. Many outdoor games available. The management is good. The pics on the websote are good but the place isn't as neat and as big as it looks in the pics. The place can be maintained more, pool and washrooms were dirty. But overall a good experience"
+    },
+        {"name": "Subramaniam Pallavoor", 
+         "dated": "Janurary 2020", 
+         "review": " After sifting and debating over various options for a quiet family day out , we chose this place . We were right in our choice . Located not far from the city, at the same time offering exclusive setting amidst greenery this place is an ideal get away for fun filled day out for family! we we were six of us with a small child. The ambiance is great ! Our little one thoroughly enjoyed herself in the vast expanse including the pool. Outdoor restaurant is well set and offers relaxed seating. Food is simply great and sumptuous including starters. The place also offers overnight stay with well appointed rooms. Service is good."
+    },
+        {"name": "Nagz", 
+         "dated": "December 2020", 
+         "review": "Ambience was too good as well as food and service, Nearby to our locality , manager friendly!! It was my friend's bday , the ambience was perfect for celebrations . I would like to recommend all my friends for this"
+    },
+        {"name": "Aayam Sai", 
+         "dated": "December 2019", 
+         "review": "The staff present at the venue was so helpful and understanding. Will really like to continue visiting them. The ambiance including the food quality was amazing. Really loved the experience over at the venue."
+    },
+        {"name": "Sneha K", 
+         "dated": "November 2019", 
+         "review": "Very nice service and hospitality ... arranged as per our requirement ... the best part was candle light arranged .. I will definitely recommend couples and family to visit and the staff is cooperative and the service provided was 5 Star"
+    },
+        {"name": "Bhavana", 
+        "dated": "October 2019", 
+        "review": "The resort is amazing wid good food quality and services at top !!!! Can visit wid groups and families d pool area s big enuf and d bar section is also well maintained !!! A well maintained property in Bangalore"
+    }
+    ],
+    "sitter_name": "Infinity Studio",
+    "sitter_description": "Home away Home For Your Pooch",
+    "sitter_mail": "infistudios@gmail.com",
+    "sitter_phone": "9845440506",
+    "sitter_care": "4.4",
+    "sitter_value": "4",
+    "sitter_knowledge": "3.8",
+    "sitter_images": [
+        { "url": "1.jpg"},
+        { "url": "2.jpg"},
+        { "url": "3.jpg"},
+        { "url": "4.jpg"}
+    ],
+
+    "spa_name": "Lyka Pet Spa",
+    "spa_images": [
+        { "url": "1.jpg"},
+        { "url": "2.jpg"},
+        { "url": "3.jpg"},
+        { "url": "4.jpg"},
+        { "url": "5.jpg"}
+    ],
+    "sap_services": ["Lyka is literally a paradise for all your dog needs and it'll pamper your pooch with their amazing services.", "We offer grooming services that include basic clean-up services such as bathing, ear-cleaning, blow-drying, brush and de-shedding.","Paw Paradise also provides more indulgent facilities like hair styling, pawdicure and much more."],
+    "spa_mail": "lykapets@gmail.com",
+    "spa_phone": "8923048573",
+    "spa_care": "4.8",
+    "spa_value": "4",
+    "spa_quality": "4.7",
+
+    "map_description_short": "For those interested in checking out popular landmarks while visiting Bengaluru, Holiday Village is located a short distance from Sri Sai Baba Mandir (1.8 mi) and Vasantha Vallabharaya Temple (1.8 mi).",
+    "map_description_getting_around": "During your visit, be sure to check out one of the nearby restaurants that are within walking distance of Holiday Village, such as The Rogue Elephant (0.5 mi), Jimis Beer Cafe (0.8 mi), or Swadeshi Family Restaurant (0.7 mi).",
+    "ppn": "4440",
+    "service_fee": "503",
+    "taxes": "22",
+    "spa_cost": "1250",
+    "sitter_cost": "450",
+
+    "host_phone": "1234567890",
+    "host_mail": "holidayvillage@gmail.com",
+    "unique_id": "010006",
+    "latitude": "12.8675876",
+    "longitude": "77.5343146",
+    "type": "RESORT"
+  }
