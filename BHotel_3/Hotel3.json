@@ -111,20 +111,20 @@
     "sitter_value": "4.5",
     "sitter_knowledge": "4.7",
     "sitter_images": [
-        { "url": "1.jpg"},
-        { "url": "2.jpg"},
-        { "url": "3.jpg"},
-        { "url": "4.jpg"}
+        { "url": "sitter1.jpg"},
+        { "url": "sitter2.jpg"},
+        { "url": "sitter3.jpg"},
+        { "url": "sitter4.jpg"}
     ],
     "sitter_available": [true, false],
     
     "spa_name": "Pet Paradise",
     "spa_images": [
-        { "url": "1.jpg"},
-        { "url": "2.jpg"},
-        { "url": "3.jpg"},
-        { "url": "4.jpg"},
-        { "url": "5.jpg"}
+        { "url": "spa1.jpg"},
+        { "url": "spa2.jpg"},
+        { "url": "spa3.jpg"},
+        { "url": "spa4.jpg"},
+        { "url": "spa5.jpg"}
     ],
     "sap_services": ["Pet Paradise is literally a paradise for all your dog needs and it'll pamper your pooch with their amazing services.", "We offer grooming services that include basic clean-up services such as bathing, ear-cleaning, blow-drying, brush and de-shedding.","Paw Paradise also provides more indulgent facilities like hair styling, pawdicure and much more."],
     "spa_mail": "pawparadise@gmail.com",
