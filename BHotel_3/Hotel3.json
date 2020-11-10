@@ -1,0 +1,151 @@
+{
+    "images":[
+        { "url": "1.jpg"},
+        { "url": "2.jpg"},
+        { "url": "3.jpg"},
+        { "url": "4.jpg"},
+        { "url": "5.jpg"},
+        { "url": "6.jpg"},
+        { "url": "7.jpg"},
+        { "url": "8.jpg"}
+    ],
+    "title": "LUXURY STUDIO ROOMS",
+    "ratings": "4.33",
+    "ratings_no": "15",
+    "location": "Bengaluru, Karnataka, India",
+    "sub_title": "Entire serviced apartment hosted by Manjunath",
+    "guests": "2",
+    "beds": [true],
+    "bedrooms": [true],
+    "bathrooms": [true],
+    "description_short": "Luxury Studio Rooms is a boutique apartment hotel property with over 120 Five * ratings on Airbnb. We offer upscale Service Apartments, Suites, Studio Rooms & Restaurant. We are located in the posh 60 feet Road of Koramangala 6th Block in close proximity to Bangalore’s most desired hangouts. Our Luxury Studio Rooms are air-conditioned, bright, beautifully decorated, large bathroom with bathtub, full-size windows, Spacious, King Bed, & Kitchenette. Our other listings can be seen in our profile.",
+    "the_space": "Our Luxury Studio rooms come with living and Kitchenette and amenities like King Bed, Free Wi-Fi, Air conditioning, 40\" LED TV, SatteliteTV, Sofa, Work station, Refrigerator, Micro oven, etc. Our services include 24-hour front desk and room service, Restaurant, parking, travel assistance, laundry and foreign exchange for your comfort and luxury.",
+    "guest_access": "Entire Property",
+    "guest_access_points": ["Building Staff","Private Entrance","Luggage drop-off allowed"],
+    "other": "Restaurant and room service is available",
+    "amenities": {
+        "lift": true,
+        "ac":true, 
+        "wifi": true, 
+        "parking":true, 
+        "laptop": true, 
+        "disabled": true, 
+        "tv": true, 
+        "infant": true
+    },
+    "amenities_basic": ["Wifi","Cable TV","AC","Laptop-friendly workspace","Iron","Washing Machine","Essentials","Ethernet connection","Hot Water"],
+    "amenities_facilities": ["Cot", "Free parking"],
+    "amenities_dining": ["Kitchen","Stove","Dishes and silverware","Oven","Microwave","Refrigerator","Coffe Maker"],
+    "amenities_bb": ["Hair dryer", "Hangers", "Shampoo", "Bed linen","Shower Gel","Extra pillow and Blankets"],
+    "amenities_safety": ["Fire Extinguisher","Carbon monoxide alarm","First aid kit","Smoke alarm"],
+    "amenities_notincluded": ["Heating"],
+    "rating_cleanliness": "4.3",
+    "rating_communication": "4.9",
+    "rating_checkin": "4.8",
+    "rating_accuracy": "4.5",
+    "rating_Loaction": "4.9",
+    "rating_value": "4.3",
+    "reviews": [
+        {"name": "Jyothi", 
+         "dated": "September 2020", 
+         "review": "Great studio room and lovely staffs, had a wonderful time there:)"
+    },
+        {"name": "Vardan", 
+         "dated": "August 2020", 
+         "review": "The vibes were not good. The place was dirty. Ac did not work and general ambience was dull"
+    },
+        {"name": "Krishnaa", 
+         "dated": "August 2020", 
+         "review": "Cozy room, and warm staff! It was a good experience "
+    },
+        {"name": "Akash", 
+         "dated": "July 2020", 
+         "review": "Amazing place worth a visit and I would keep going. Only thing is, take care of the promise on the amenities and follow up on them. "
+    },
+        {"name": "Sampras", 
+         "dated": "June 2020", 
+         "review": "Well maintained , clean and located at a very favorable place as well. Great host experience and worth every penny."
+    },
+        {"name": "Saloni", 
+         "dated": "June 2020", 
+         "review": "Amazing Hospitality. Very very clean. Great Location. Totally worth it."
+    },
+        {"name": "Aarushi", 
+         "dated": "June 2020", 
+         "review": "Helpful host and staff, kitchen stocked with everything, nice room "
+    },
+        {"name": "Jameel", 
+         "dated": "June 2020", 
+         "review": "Bathroom is the best part of the room. The Only reason for a 3 star rating or else would have not rated more than 2 for sure. Host was responsive at all times. Cons: TV DTH was not recharged. No Microwave as stated. Blankets had hairs on it.Had to use personal bedsheets and blankets. Air conditioning was not working on the check out day morning. There was sound of maintainence whole time we stayed there, which was very annoying. Breakfast was not provided even though many restaurants were open already. There is no balcony in the room as stated."
+    },
+        {"name": "Debasmita", 
+        "dated": "June 2020", 
+        "review": "I had a great time staying in the hotel . It felt like own space and the best part was the glass wall "
+    },
+        {"name": "Rashmi", 
+        "dated": "June 2020", 
+        "review": "Best place to spend time"
+    },
+        {"name": "Raashmi", 
+         "dated": "May 2020", 
+        "review": "It’s a clean place , evrything is close by like shops n restaurants "
+    },
+        {"name": "Muthuraj", 
+        "dated": "March 2020", 
+        "review": "Had a good stay. Host is very helpful. "
+    },
+        {"name": "Poornima", 
+        "dated": "May 2020", 
+        "review": "The place was good"
+    },
+        {"name": "name 8", 
+        "dated": "october 2020", 
+        "review": "hello iam here. I am there . "
+    }
+    ],
+    "sitter_name": "Tailsmile",
+    "sitter_description": "This pet service company knows how busy the lives of pet parents are and offer a bunch of pet services to make their lives easier. Apart from dog walking and pet daycare, they also offer pet sitting services where they’ll come home and care for the fluffball while you’re away. ",
+    "sitter_mail": "tailsmile@gmail.com",
+    "sitter_phone": "9036388786",
+    "sitter_care": "4.6",
+    "sitter_value": "4.5",
+    "sitter_knowledge": "4.7",
+    "sitter_images": [
+        { "url": "1.jpg"},
+        { "url": "2.jpg"},
+        { "url": "3.jpg"},
+        { "url": "4.jpg"}
+    ],
+    "sitter_available": [true, false],
+    
+    "spa_name": "Pet Paradise",
+    "spa_images": [
+        { "url": "1.jpg"},
+        { "url": "2.jpg"},
+        { "url": "3.jpg"},
+        { "url": "4.jpg"},
+        { "url": "5.jpg"}
+    ],
+    "sap_services": ["Pet Paradise is literally a paradise for all your dog needs and it'll pamper your pooch with their amazing services.", "We offer grooming services that include basic clean-up services such as bathing, ear-cleaning, blow-drying, brush and de-shedding.","Paw Paradise also provides more indulgent facilities like hair styling, pawdicure and much more."],
+    "spa_mail": "pawparadise@gmail.com",
+    "spa_phone": "9632234002",
+    "spa_care": "4.8",
+    "spa_value": "4.6",
+    "spa_quality": "4.9",
+    "spa_available": [false, true],
+
+    "map_description_short": "Located in Koramangala: India's hottest startup neighborhood is a quiet, elegant Bangalore neighborhood. Koramangala is one of the most preferred realty destinations in Bangalore. The region has a number of famous restaurants where a wide variety of cuisines are served. The locality has a rich nightlife with the presence of a number of bars, pubs, and lounges. The area has many malls, standalone retail outlets, hypermarkets, and supermarkets..",
+    "map_description_getting_around": "Owing to its strategic location, the locality is well connected to other parts of the city via road and is accessible from all parts of the city. 4 Seasons Suites is located near the famous Forum mall / St. John's Hospital.",
+    "ppn": "1990",
+    "service_fee": "0",
+    "taxes": "18",
+    "spa_cost": "500",
+    "sitter_cost": "150",
+
+    "host_phone": "1234567890",
+    "host_mail": "manjuman@gmail.com",
+    "unique_id": "010003",
+    "latitude": "12.9372772",
+    "longitude": "77.6196106",
+    "type": "HOTEL"
+  }

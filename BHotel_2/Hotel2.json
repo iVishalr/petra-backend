@@ -1,0 +1,155 @@
+{
+    "images":[
+        { "url": "1.jpg"},
+        { "url": "2.jpg"},
+        { "url": "3.jpg"},
+        { "url": "4.jpg"},
+        { "url": "5.jpg"},
+        { "url": "6.jpg"},
+        { "url": "7.jpg"},
+        { "url": "8.jpg"},
+        { "url": "9.jpg"}
+    ],
+    "title": "Tree House",
+    "ratings": "4.84",
+    "ratings_no": "155",
+    "location": "Bengaluru,Karnataka,India",
+    "sub_title": "Treehouse hosted by Sridhare",
+    "guests": "3",
+    "beds": [true,false],
+    "bedrooms": [true],
+    "bathrooms": [true],
+    "description_short": "Forget about the hustle and bustle of city life and enjoy the serene environment. Play outdoor games within the property, enjoy a unique experience staying at tree house which is less than an hour drive from Bangalore.",
+    "the_space": "If you are looking for accommodation for additional guests, checkout our other property magical yurt on this same farm.",
+    "guest_access": "Details",
+    "guest_access_points": ["Garden.","Badminton court and few out door games.","Building staff","Private entrance"],
+    "other": "Clover golf and a Restaurant is just 2km away.",
+    "amenities": {
+        "lift": true,
+        "ac":true, 
+        "wifi": true, 
+        "parking":true, 
+        "laptop": true, 
+        "disabled": false, 
+        "tv": true, 
+        "infant": true
+    },
+    "amenities_basic": ["Essentials","Air Conditioning","Wifi","Iron","TV","Laptop friendky","Hot Water"],
+    "amenities_facilities": ["Free parking on premises"],
+    "amenities_dining": ["Cooking basics","Dishes and Silverware", "Microwave","Stove","Refrigerator","Kitchen"],
+    "amenities_bb": ["Hair dryer", "Hangers", "Shampoo", "Bed linen"],
+    "amenities_safety": ["Smoke alarm", "First aid kit","Carbon monoxide alarm"],
+    "amenities_notincluded": ["Heating","Washing machine"],
+    "rating_cleanliness": "4.9",
+    "rating_communication": "4.9",
+    "rating_checkin": "4.9",
+    "rating_accuracy": "4.8",
+    "rating_Loaction": "3.6",
+    "rating_value": "4.6",
+    "reviews": [
+        {"name": "Monica", 
+         "dated": "November 2020", 
+         "review": "Good weekend gateways from a busy city life, must visit. I completely enjoyed staying in the treehouse.  "
+    },
+        {"name": "Sharanya", 
+         "dated": "November 2020", 
+         "review": "It’s a beautiful quiet place located so close to the city. The uniqueness of the architecture is something that you will thoroughly relish. I loved how so many amenities were fit in such a small space. The property is cute and cozy and has a very different vibe. Swiggy will deliver and you also have a cute little kitchen. Beware of the mosquitoes  "
+    },
+        {"name": "Abhinandan", 
+         "dated": "October 2020", 
+         "review": "The place is quite far away from the city limits but when we got there, it was totally and completely worth it. The treehouse was beautifully planned and executed. It was cosy and special and my wife and I were pretty much thrilled about spending her 36th birthday here.  "
+    },
+        {"name": "Swapnil", 
+         "dated": "October 2020", 
+         "review": "Quaint place. Good for a weekend getaway.  "
+    },
+        {"name": "Nancy", 
+         "dated": "October 2020", 
+         "review": "The Stay was a total bliss. I desperately needed a break from the usual routine, during these covid-19 times, and nothing could have been better, safer and yet a functional place than the beautiful treehouse. It's surrounded by nature, yet equipped with tech in the most beautiful manner. The space has been used brilliantly. We saw squirrels, parrots, kites and various kind of lizards as we sipped the morning coffee at the patio. Would love to visit soon.  "
+    },
+        {"name": "Kuldeep", 
+         "dated": "October 2020", 
+         "review": "This is by far one of the best vacations of my life. Perfect place to take a day’s break from Bangalore and stay amidst nature.  "
+    },
+        {"name": "Mubarak", 
+         "dated": "October 2020", 
+         "review": "It was an amazing experience.despite the fact that it was a tree house there weren't any mosquitoes as anticipated. We stayed for 3nights and wanted to extend our stay further but it was booked . Swiggy delivers to the tree house as well  "
+    },
+        {"name": "Sruthi", 
+         "dated": "September 2020", 
+         "review": "The tree house is a great and cozy place for a staycation. We were taken aback by the ammenities provided. Everything possible needed is available in the best quality. Also, swiggy delivery is possible too. We maintained clean place. Definitely a recommendation  "
+    },
+    {"name": "Jishnu", 
+        "dated": "September 2020", 
+        "review": " Charming tree house. All amenities are there to live for a few days. Not much natural beauty or view from the house. Bring Odomos or Allout since there were mosquitoes. "
+    },
+    {"name": "Nadia", 
+        "dated": "August 2020", 
+        "review": "It's a quaint place, tucked away in a quiet spot. A great weekend getaway!"
+    },
+    {"name": "Bharath", 
+        "dated": "August 2020", 
+        "review": " This place is extremely beautiful and well maintained. Bathrooms are super clean. Kitchenette is so well-equipped. Love how the space has been designed "
+   },
+   {"name": "Sukriti", 
+        "dated": "July 2020", 
+        "review": "A cute little tree house which has everything you’d need, with a touch of aesthetic. We loved our stay here - it was peaceful and Sridhar, the host, was an absolute pleasure to have interacted with. Will recommend this place to all my friends hustling in Bangalore!"
+    },
+    {"name": "Yogesh", 
+        "dated": "June 2020", 
+        "review": "This treehouse will easily be one of our most memorable homes we'll ever stay in! We were just stunned by the beauty of the whole place - right from the excellent interior decor, to the colours, to the thoughtful design, to the cute amenities - it is out of a beautiful book. Add to that the location and the calmness of the space, it was nothing short of perfect. A Must Visit, do not even think twice, it is easily worth the monetary value!"
+    },
+    {"name": "Nikita", 
+        "dated": "May 2020", 
+        "review": "Very well maintained and stylishly designed little tree house. Comfy for two ppl. Great getaway close to Bangalore City. Sridhar was helpful and hospitable. Cooked or own food in the equipped kitchen. Supermarkets close by so found all we needed. Speedball and badminton was fun! Would like the facilities of archery,darts carrom etc to be better maintained."
+    }
+    ],
+    "sitter_name": "Furry Home",
+    "sitter_description": "To me having pets around is a bliss which no human can give.I always treat him as my son and his love is unconditional towards me which I adore the most.",
+    "sitter_mail": "priyanka@gmail.com",
+    "sitter_phone": "8923784659",
+    "sitter_care": "5",
+    "sitter_value": "4.9",
+    "sitter_knowledge": "5",
+    "sitter_images": [
+        { "url": "1.jpg"},
+        { "url": "2.jpg"},
+        { "url": "3.jpg"},
+        { "url": "4.jpg"},
+        { "url": "5.jpg"},
+        { "url": "6.jpg"}
+    ],
+    "sitter_available": [false, true],
+    "spa_name": "The Dog Studio Pet Spa",
+    "spa_images": [
+        { "url": "1.jpg"},
+        { "url": "2.jpg"},
+        { "url": "3.jpg"},
+        { "url": "4.jpg"}
+    ],
+    "sap_services": ["We cater to pet owners who genuinely treat their furry companions as part of the family and will do anything to offer the best care and safety for their loved ones",
+        "We love grooming to breed standard, and smaller dogs are my specialty. Some of my favorite breeds to groom are Shihtzu's, Maltese, Chow Chow’s Poodles, Terriers, Shepherds, Golden Retrievers, or creative or personality trims on mixed-breed dogs.",
+        "We need probably 1 – 1 1/2 hours and sometimes even 3 hours on a single pet. Hence, we do not accept more than 1 pet at a time, depending on the breed and the condition of the pet,Our combs, brushes, Blades and clippers are cleaned and sanitized in UV sterilizing machine after every groom. I am grateful that my early mentor who took the time to teach me the importance of keeping my facility clean and free of biological s, not to groom sick pets, proper storage of supplies and equipment, and cleaning and disinfecting routines."
+    ],
+    "spa_mail": "thedogs@gmail.com",
+    "spa_phone": "2125555500",
+    "spa_care": "4.8",
+    "spa_value": "4.8",
+    "spa_quality": "4.85",
+    "spa_available": [false, true],
+
+    "map_description_short": "Nearest Restaurant is clover fields which is just 2km. Other restaurants are in Sarjapur.",
+    "map_description_getting_around": "You can also order through Swiggy/zomato. Groceries are available nearby. Chiikatirupathi is 13kms. Hosur Hill Temple 14kms.",
+    "ppn": "4545",
+    "service_fee": "695",
+    "taxes": "18",
+    "spa_cost": "750",
+    "sitter_cost": "250",
+
+    "host_phone": "1234567890",
+    "host_mail": "sridhar12@gmail.com",
+    "unique_id": "010002",
+    "latitude": "12.8448603",
+    "longitude": "77.7301262",
+    "type": "HOME"
+  }

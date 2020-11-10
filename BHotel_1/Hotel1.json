@@ -1,0 +1,145 @@
+{
+    "images":[
+        { "url": "1.jpg"},
+        { "url": "2.jpg"},
+        { "url": "3.jpg"},
+        { "url": "4.jpg"},
+        { "url": "5.jpg"},
+        { "url": "6.jpg"},
+        { "url": "7.jpg"},
+        { "url": "8.jpg"},
+        { "url": "9.jpg"}
+    ],
+    "title": "Windchimes Private Rooms",
+    "ratings": "5",
+    "ratings_no": "12",
+    "location": "Bengaluru,Karnataka,India",
+    "sub_title": "Lovely room with a resort feel in city",
+    "guests": "2",
+    "beds": [true],
+    "bedrooms": [true],
+    "bathrooms": [true],
+    "description_short": "Lovely cozy room in Dollars Colony. It’s surrounded by greenery and park. Room has attached toilet, cable TV, wifi, guests are allowed to use the living room , kitchen and common areas",
+    "the_space": "Windchime Apartments in Koramangala",
+    "guest_access": "Guests can access the entire main building, car park and if you love to cook you can use the kitchen too. ",
+    "guest_access_points": ["Guests will have complete access to the Home"],
+    "other": "Open for couples and families only. No parties allowed, No smoking or Drug Abuse.",
+    "amenities": {
+        "lift": true,
+        "ac":true, 
+        "wifi": true, 
+        "parking":true, 
+        "laptop": true, 
+        "disabled": true, 
+        "tv": true, 
+        "infant": false
+    },
+    "amenities_basic": ["Wifi","Air Conditioning","Washing Machine", "TV", "Essentials", "Hot water"],
+    "amenities_facilities": ["Lift", "Free Parking on premises"],
+    "amenities_dining": ["Kitchen","Microwave","Refrigerator","Dishes and Silverware"],
+    "amenities_bb": ["Hangers", "Shampoo", "Soap", "Towels", "Bed linen"],
+    "amenities_safety": ["Fire Extinguisher"],
+    "amenities_notincluded": ["Smoke Alarms", "Heating", "Hair Dryer", "Private Entrance", "Carbon monoxide alarm"],
+    "rating_cleanliness": "4.9",
+    "rating_communication": "5.0",
+    "rating_checkin": "4.8",
+    "rating_accuracy": "4.8",
+    "rating_Loaction": "5.0",
+    "rating_value": "4.8",
+    "reviews": [
+        {"name": "Sounak", 
+        "dated": "November 2020", 
+        "review": "Amazing place to have an home away from home. Dr. Dinkle has been an amazing host ! He took care of requests and addressing them with care as well as being an awesome host. The flat is very peaceful and it is worth every penny spent. Do have a stay at this place to have an amazing experience ."
+    },
+        {"name": "Nitin", 
+        "dated": "July 2020", 
+        "review": "Super clean. The balcony is the best."
+    },
+        {"name": "Suresh", 
+        "dated": "July 2020", 
+        "review": "Dr. Dinkel has been very kind and exceptional host. Dr. Dinkel was very quick in responding to all the help that was needed. I really appreciate that part about him. Rooms were spacious, clean and very tidy, home arrangement was too good that you feel like visiting the place again and spend a lot of more time. It’s a place that you must visit. Locality is very closer to the Airport and many other household shopping nearby. And also few parks around the place, where you can just walk peacefully in the evening. Overall experience of visiting the Dr. Dinkel’s place was very very pleasant. Really loved the place, hoping to visit again sometime soon. Thank you very much Dr. Dinkel."
+    },
+        {"name": "Gauri", 
+        "dated": "May 2020", 
+        "review": "The room was really nice and the host was very helpful."
+    },
+        {"name": "Abhishek", 
+        "dated": "March 2020", 
+        "review": "Home away from home! Located in a calm neighborhood, an ideal place if one wants to step out for an evening stroll. Thank you so much Mr.Dinkel for the hospitality and to have made our stay a very comfortable and a memorable one. Cheers!!"
+    },
+        {"name": "Prajeth", 
+        "dated": "February 2020", 
+        "review": "This is a home away from home by all means. Dr Dinkel is a wonderful host and ready to help you out in every way so that you really hv the best time there. The room is really wonderful and spacious having a nice balcony. The house is having all the essential eminities and is secured even for single travellers (including women travellers), has wonderful restaurants near by, accessible for Swiggy delivery (delivers in less than 30 minutes). Dr Dinkel is always accessible to help you out with any requirements at any point of time. He had helped me out in a situation of a personal emergency going out of the way, much more than one can think of. This would definitely be one of the best place to stay whenever you plan to visit the garden city !!! "
+    },
+        {"name": "Rajani", 
+        "dated": "February 2020", 
+        "review": "Dr. Dinkel is very friendly and easily approachable. When he got to know that, this was our first Valentine’s Day after Marriage, he decorated our room with balloons and candles. He made sure that our Valentine’s Day is special. The place is super awesome with lot of space. Rooms were super clean, and balcony is awesome . I would highly recommend this place. "
+    },
+        {"name": "Abhishek", 
+        "dated": "Febuary 2020", 
+        "review": "Dr Dinkels place is located into a lovely district of Bangalore away from traffic and noise of the city. The apartment is spotlessly clean and maintained very well . My room was always kept ready even at the late hours that I arrived. The room has a great view shaded by trees and overlooking a not so busy street. Dr Dinkel isna great host and rook time out to meet me late into the night when I arrived. Small gestures of leading me with directions and looking into my requirements gave a very positive vibe to this experience. I do want to return to his place if in Bangalore next. "
+    },
+        {"name": "Vikas", 
+        "dated": "January 2020", 
+        "review": "Stayed here for 2 nights, beautiful house with great hospitality. Area where the house is located is quite green and gives you a resort room like feeling as the host mentioned. Overall a perfect stay."
+    },
+        {"name": "Oshin", 
+        "dated": "January 2020", 
+        "review": "This note is my way to thank you Dr Dinkel. Also, how can i forget to mention 'Padam' a responsible and humble caretaker, he took care of us specially my dog 'Hachi', from the time i booked your place till the time you approved i was so nervous but your message \"you can check-in anytime, don't worry\", and all my anxiety went away. We all know house hunting is such a challenging task that too in metro cities yet you tried and helped me out finding my place. My four days booking was about to over and still you accommodated my luggage and my dog in spare room. Coming to the accommodation, It just felt like a dream come true, beautiful spacious room, a big living room, kitchen and hachi i mean what else could i have asked for. Thank you for hosting us (me and my pet \"Hachi\")!!! Thank you for keeping your place pet-friendly!!! I'll miss 102 bnb ('bed and breakfast',omelette & tea) Wind chimes Apartments, 6th main road, RMV 2nd stage, Dollars colony Bangalore Regards, Oshin Thakur (Manali, H.P) "
+    },
+        {"name": "Yashita", 
+        "dated": "January 2020", 
+        "review": "Very helpful and hospitable host. The caretaker at the property also deserves an honourable mention, he makes sure the stay is as comfortable as possible. Beautiful view outside the room!"
+    },
+        {"name": "Suraz", 
+        "dated": "February 2020", 
+        "review": "Man with a big heart!! :D"
+    }   
+    ],
+    "sitter_name": "Tailsmile",
+    "sitter_description": "This pet service company knows how busy the lives of pet parents are and offer a bunch of pet services to make their lives easier. Apart from dog walking and pet daycare, they also offer pet sitting services where they’ll come home and care for the fluffball while you’re away. ",
+    "sitter_mail": "tailsmile@gmail.com",
+    "sitter_phone": "9036388786",
+    "sitter_care": "4.6",
+    "sitter_value": "4.5",
+    "sitter_knowledge": "4.7",
+    "sitter_images": [
+        { "url": "1.jpg"},
+        { "url": "2.jpg"},
+        { "url": "3.jpg"},
+        { "url": "4.jpg"}
+    ],
+    "sitter_available": [true, false],
+    
+    "spa_name": "Pet Paradise",
+    "spa_images": [
+        { "url": "1.jpg"},
+        { "url": "2.jpg"},
+        { "url": "3.jpg"},
+        { "url": "4.jpg"},
+        { "url": "5.jpg"}
+    ],
+    "sap_services": ["Pet Paradise is literally a paradise for all your dog needs and it'll pamper your pooch with their amazing services.", "We offer grooming services that include basic clean-up services such as bathing, ear-cleaning, blow-drying, brush and de-shedding.","Paw Paradise also provides more indulgent facilities like hair styling, pawdicure and much more."],
+    "spa_mail": "pawparadise@gmail.com",
+    "spa_phone": "9632234002",
+    "spa_care": "4.8",
+    "spa_value": "4.6",
+    "spa_quality": "4.9",
+    "spa_available": [false, true],
+    
+    "map_description_short": " ",
+    "map_description_getting_around": "OLA/Uber and other cabs services available 24/7.Within a 2 Kms radius, there are multiple bus stops.If you need to park your 2 or 4 wheeler, we provide ample parking space in our basement.Bandappa Garden is a 5 minute walk from the guest house.",
+    "ppn": "1500",
+    "service_fee": "212",
+    "taxes": "18",
+
+    "spa_cost": "500",
+    "sitter_cost": "150",
+    
+    "host_phone": "1234567890",
+    "host_mail": "DrDinkel@gmail.com",
+    "hotelID": "010101",
+    "lalitude": "12.9339201",
+    "longitude": "77.6342654",
+    "type": "HOTEL"
+}
