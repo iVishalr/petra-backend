@@ -112,20 +112,20 @@
     "sitter_value": "4.9",
     "sitter_knowledge": "5",
     "sitter_images": [
-        { "url": "1.jpg"},
-        { "url": "2.jpg"},
-        { "url": "3.jpg"},
-        { "url": "4.jpg"},
-        { "url": "5.jpg"},
-        { "url": "6.jpg"}
+        { "url": "sitter1.jpg"},
+        { "url": "sitter2.jpg"},
+        { "url": "sitter3.jpg"},
+        { "url": "sitter4.jpg"},
+        { "url": "sitter5.jpg"},
+        { "url": "sitter6.jpg"}
     ],
     "sitter_available": [false, true],
     "spa_name": "The Dog Studio Pet Spa",
     "spa_images": [
-        { "url": "1.jpg"},
-        { "url": "2.jpg"},
-        { "url": "3.jpg"},
-        { "url": "4.jpg"}
+        { "url": "spa1.jpg"},
+        { "url": "spa2.jpg"},
+        { "url": "spa3.jpg"},
+        { "url": "spa4.jpg"}
     ],
     "sap_services": ["We cater to pet owners who genuinely treat their furry companions as part of the family and will do anything to offer the best care and safety for their loved ones",
         "We love grooming to breed standard, and smaller dogs are my specialty. Some of my favorite breeds to groom are Shihtzu's, Maltese, Chow Chow’s Poodles, Terriers, Shepherds, Golden Retrievers, or creative or personality trims on mixed-breed dogs.",
