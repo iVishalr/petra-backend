@@ -1,0 +1,183 @@
+{
+  "images": [
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel6-1.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel6-2.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel6-3.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel6-4.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel6-5.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel6-6.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel6-7.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel6-8.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel6-9.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel6-10.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel6-11.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel6-12.jpg" }
+  ],
+  "title": "Taj Fisherman",
+  "ratings": "4.2",
+  "ratings_no": "162",
+  "location": "Covelong Beach, Chennai",
+  "sub_title": "Taj Fisherman's Cove Resort & Spa, Chennai",
+  "guests": "4",
+  "beds": [true, true],
+  "bedrooms": [true],
+  "bathrooms": [true, true],
+  "description_short": "5-star resort on the beach, near Muttukadu Boat House",
+  "the_space": "Guests of this beach resort will appreciate convenient on-site amenities such as a fitness centre and massage/treatment rooms. All 128 rooms offer free WiFi, 24-hour room service and TVs with satellite channels. Other amenities available to guests include wired Internet (surcharge), minibars and coffee/tea makers.",
+  "guest_access": "Taj Fisherman's Cove Resort & Spa, Chennai offers 128 forms of accommodation with minibars and a safe. Televisions come with premium satellite channels. Bathrooms include a shower, slippers, designer toiletries and complimentary toiletries.\nThis Chennai resort provides complimentary wireless Internet access. Business-friendly amenities include desks and complimentary newspapers. Additionally, rooms include complimentary bottles of water and coffee/tea makers. An iron/ironing board and hairdryers can be requested. A nightly turndown service is provided and housekeeping is offered on a daily basis.",
+  "guest_access_points": [
+    "An outdoor pool and a children's pool are on site.",
+    "Other recreational amenities include a private beach and a fitness centre.",
+    "The recreational activities listed below are available either on-site or nearby"
+  ],
+  "other": "This property participates in EarthCheck, a programme that measures the property's impact on one or more of the following: The Environment, the community, the cultural heritage and the local economy.",
+  "amenities": {
+    "lift": true,
+    "ac": true,
+    "wifi": true,
+    "parking": true,
+    "laptop": true,
+    "disabled": true,
+    "tv": true,
+    "infant": false
+  },
+  "amenities_basic": [
+    "Wifi",
+    "Air Conditioning",
+    "TV",
+    "Essentials",
+    "Hot water",
+    "Wheelcahir accessible"
+  ],
+  "amenities_facilities": [
+    "Lift",
+    "Free Parking on premises",
+    "Fitness Centre",
+    "Outdoor pool",
+    "Playground"
+  ],
+  "amenities_dining": [
+    "Buffet breakfast",
+    "Restaurant",
+    "Coffee shop",
+    "Refrigerator",
+    "poolside bar"
+  ],
+  "amenities_bb": [
+    "Hangers",
+    "Shampoo",
+    "Soap",
+    "Towels",
+    "Bed linen",
+    "Hair dryer",
+    "Laundry",
+    "Shower"
+  ],
+  "amenities_safety": [
+    "Fire Extinguisher",
+    "Smoke alarms",
+    "CCTV",
+    "First aid kit"
+  ],
+  "amenities_notincluded": [
+    "Washing Machine",
+    "Microwave",
+    "Heating",
+    "Private Entrance",
+    "Carbon monoxide alarm"
+  ],
+  "rating_cleanliness": "4.5",
+  "rating_communication": "4.6",
+  "rating_checkin": "4.2",
+  "rating_accuracy": "4.7",
+  "rating_Loaction": "4.4",
+  "rating_value": "4.1",
+  "reviews": [
+    {
+      "name": "Savita",
+      "dated": "March 2020",
+      "review": "The property has lovely views of the sea but is run down snd badly needs renovation. The JiVa spa ambience is very very bad. Not worth the money."
+    },
+    {
+      "name": "Neesha",
+      "dated": "February 2020",
+      "review": "The property was amazing, the Taj Hospitality speaks for itself. The rooms, even though given an upgrade was dissapointing."
+    },
+    {
+      "name": "Appiah",
+      "dated": "December 2019",
+      "review": "It's always a pleasure to be back at Fish Cove! We arrived 2 hours before check in on dec 20th which is peak season but our cottage was ready which was a blessing. We asked for an extra bed which was set up immediately. Housekeeping was very thorough everyday. Service during breakfast was a bit sloppy maybe because of the sheer number of guests. Everyday we were seated at tables that didn't have a fully service of crockery and cutlery. Every diner was given their own plastic bottle of water which i didn't understand. So eco unfriendly!! The breakfast buffet was quite extensive. The grounds of the hotel are impeccable and the beach is for the most part clean."
+    },
+    {
+      "name": "Gauri",
+      "dated": "May 2019",
+      "review": "it was a wonderful stay with every day bonfire and housie to keep evenings very lively. They had called and asked in advance the purpose of our visit - it was reunion of cousine sisters - ;so they arranged nice surpirse by offering us a cake to cut and celebrate....very nice gesture...."
+    },
+    {
+      "name": "Abhishek",
+      "dated": "March 2019",
+      "review": "Usual Taj hospitality. Sightseeing guide arranged for by hotel was very expensive and not worth it.3"
+    },
+    {
+      "name": "Vikas",
+      "dated": "January 2020",
+      "review": "Stayed here for 2 nights, beautiful house with great hospitality. Area where the house is located is quite green and gives you a resort room like feeling as the host mentioned. Overall a perfect stay."
+    },
+    {
+      "name": "Yashita",
+      "dated": "January 2020",
+      "review": "Very helpful and hospitable host. The caretaker at the property also deserves an honourable mention, he makes sure the stay is as comfortable as possible. Beautiful view outside the room!"
+    }
+  ],
+  "sitter_name": "Shiro Pet Home",
+  "sitter_description": "8I can assure you to make your pet feel home and provide all his basic necessities . I strive towards providing a cage free and home feel environment to my furry guests. The basic needs and necessity like food, water, litter area, toys will be provided. when it's under my care, i can assure you your pets is in good hands",
+  "sitter_mail": "shrirocare@gmail.com",
+  "sitter_phone": "9033458786",
+  "sitter_care": "5",
+  "sitter_value": "4.85",
+  "sitter_knowledge": "4.9",
+  "sitter_images": [
+    { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter21.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter22.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter23.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter24.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter25,jpg" }
+  ],
+  "sitter_available": [true, true],
+
+  "spa_name": "Pretty Pawz",
+  "spa_images": [
+    { "url": "http://localhost:3001/Hotels/Chennai/spa/spa21.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/spa/spa22.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/spa/spa23.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/spa/spa24.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/spa/spa25.jpg" }
+  ],
+  "sap_services": [
+    "Professional and qualified people.",
+    "We offer grooming services that include basic clean-up services such as bathing, ear-cleaning, blow-drying, brush and de-shedding.",
+    "Pretty Pawz also provides more indulgent facilities like hair styling, pawdicure and much more."
+  ],
+  "spa_mail": "pawzpretty@gmail.com",
+  "spa_phone": "7338777847",
+  "spa_care": "4.4",
+  "spa_value": "4.2",
+  "spa_quality": "4.6",
+  "spa_available": [false, true],
+
+  "map_description_short": "Located in Chennai, Taj Fisherman's Cove Resort & Spa, Chennai is on a private beach. Tiger Cave and Shore Temple are notable landmarks, and if an activity is on the agenda, visit Muttukadu Boat House. Travelling with kids? Don't miss Madras Crocodile Bank Trust. ",
+  "map_description_getting_around": "OLA/Uber and other cabs services available 24/7.Within a 2 Kms radius, there are multiple bus stops.If you need to park your 2 or 4 wheeler, we provide ample parking space in our basement.Bandappa Garden is a 5 minute walk from the guest house.\nSeagull – Pool-view restaurant. Serves breakfast, lunch and dinner. Open 24 hours.\nUpper Deck – Al fresco dining restaurant. Serves dinner daily.",
+  "ppn": "15000",
+  "service_fee": "1200",
+  "taxes": "22",
+
+  "spa_cost": "2100",
+  "sitter_cost": "450",
+
+  "host_phone": "1234567890",
+  "host_mail": "tajfish@gmail.com",
+  "hotelID": "010206",
+  "latitude": "12.7975677",
+  "longitude": "80.23946461",
+  "type": "RESORT"
+}

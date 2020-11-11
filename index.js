@@ -197,7 +197,7 @@ const HotelCollection = new mongoose.model(
 //Path to be changed after insertion : './Hotels/Bangalore/data/Hotel<new>.json'
 
 // var newHotel1 = JSON.parse(
-//   fs.readFileSync("./Hotels/Bangalore/data/Hotel6.json", "utf8")
+//   fs.readFileSync("./Hotels/Chennai/data/Hotel5.json", "utf8")
 // );
 // var newHotelCollection = new HotelCollection(newHotel1);
 
@@ -211,22 +211,22 @@ const HotelCollection = new mongoose.model(
 //-------Uncomment the following code to insert hotels based on cities------//
 
 // var newHotel1 = JSON.parse(
-//   fs.readFileSync("./Hotels/Bangalore/data/Hotel1.json", "utf8")
+//   fs.readFileSync("./Hotels/Chennai/data/Hotel1.json", "utf8")
 // );
 // var newHotel2 = JSON.parse(
-//   fs.readFileSync("./Hotels/Bangalore/data/Hotel2.json", "utf8")
+//   fs.readFileSync("./Hotels/Chennai/data/Hotel2.json", "utf8")
 // );
 // var newHotel3 = JSON.parse(
-//   fs.readFileSync("./Hotels/Bangalore/data/Hotel3.json", "utf8")
+//   fs.readFileSync("./Hotels/Chennai/data/Hotel3.json", "utf8")
 // );
 // var newHotel4 = JSON.parse(
-//   fs.readFileSync("./Hotels/Bangalore/data/Hotel4.json", "utf8")
+//   fs.readFileSync("./Hotels/Chennai/data/Hotel4.json", "utf8")
 // );
 // var newHotel5 = JSON.parse(
-//   fs.readFileSync("./Hotels/Bangalore/data/Hotel5.json", "utf8")
+//   fs.readFileSync("./Hotels/Chennai/data/Hotel5.json", "utf8")
 // );
 // var newHotel6 = JSON.parse(
-//   fs.readFileSync("./Hotels/Bangalore/data/Hotel6.json", "utf8")
+//   fs.readFileSync("./Hotels/Chennai/data/Hotel6.json", "utf8")
 // );
 
 // // Note: Change the _id property on json given below for a new city
@@ -238,13 +238,13 @@ const HotelCollection = new mongoose.model(
 // // Hyderabad - INDTEHY
 
 // newHotel = new Hotel({
-//   _id: "INDKABLR",
-//   City: "Bengaluru",
-//   State: "Karnataka",
+//   _id: "INDTNCH",
+//   City: "Chennai",
+//   State: "Tamil Nadu",
 //   Country: "India",
 //   CityLocation: {
-//     latitude: 12.971599,
-//     longitude: 77.594566,
+//     latitude: 13.0474878,
+//     longitude: 80.0689252,
 //   },
 //   hotelList: [
 //     {
@@ -290,7 +290,7 @@ const HotelCollection = new mongoose.model(
 //       },
 //     },
 //     {
-//       img: newHotel3.images[0].url,
+//       img: newHotel3.images[6].url,
 //       location: newHotel3.location,
 //       title: newHotel3.title,
 //       description: newHotel3.sub_title,
@@ -462,7 +462,7 @@ app.post("/auth/google/account/", function (req, res) {
 
 app.post("/auth/google/account/search/", function (req, res) {
   console.log(req.body);
-  Hotel.findOne({ _id: "INDKABLR" }, function (err, hotel) {
+  Hotel.findOne({ _id: "INDTNCH" }, function (err, hotel) {
     if (err) {
       res.status(500).json({
         error: "There was an error retrieving data from database.",
@@ -477,7 +477,7 @@ app.post("/auth/google/account/search/", function (req, res) {
 
 app.post("/search/", function (req, res) {
   console.log(req.body);
-  Hotel.findOne({ _id: "INDKABLR" }, function (err, hotel) {
+  Hotel.findOne({ _id: "INDTNCH" }, function (err, hotel) {
     if (err) {
       res.status(500).json({
         error: "There was an error retrieving data from database.",

@@ -1,0 +1,201 @@
+{
+  "images": [
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel3-1.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel3-2.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel3-3.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel3-4.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel3-5.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel3-6.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel3-7.jpg" }
+  ],
+  "title": "Green Meadows Resort",
+  "ratings": "4",
+  "ratings_no": "181",
+  "location": "Anbu Nagar,Chennai",
+  "sub_title": "Serene and peaceful resort in a great location.",
+  "guests": "2",
+  "beds": [true],
+  "bedrooms": [true],
+  "bathrooms": [true],
+  "description_short": "Green Meadows Resort ECR Chennai: Green Meadows Resort on the ECR is a Ethnic Kerala Resort offers facilities for Accommodation, Banquets, Conferences, Receptions, Weddings, Rain Dance and multi-cuisine restaurant.",
+  "the_space": "Hotel accommodations have been carefully appointed to the highest degree of comfort and convenience. In some of the rooms, guests can find television LCD/plasma screen, clothes rack, complimentary tea, linens, mirror. The hotel offers fantastic facilities, including outdoor pool, massage, pool (kids), garden, to help you unwind after an action-packed day in the city. ",
+  "guest_access": "The facilities and services provided by Green Meadows Resort ensure a pleasant stay for guests.  ",
+  "guest_access_points": [
+    "Top features of the hotel include free Wi-Fi in all rooms, ",
+    "Wi-Fi in public areas",
+    "car park",
+    "Room service",
+    "Airport transfer"
+  ],
+  "other": "Green Meadows Resort is an ideal place of stay for travelers seeking charm, comfort and convenience in Chennai.",
+  "amenities": {
+    "lift": false,
+    "ac": true,
+    "wifi": true,
+    "parking": true,
+    "laptop": true,
+    "disabled": false,
+    "tv": true,
+    "infant": true
+  },
+  "amenities_basic": [
+    "Wifi",
+    "Air Conditioning",
+    "TV",
+    "Iron",
+    "Essentials",
+    "Hot water"
+  ],
+  "amenities_facilities": [
+    "Daily Housekeeping",
+    "Free Parking on premises",
+    "Garden",
+    "Sauna/Spa",
+    "Swimming pool",
+    "Massage",
+    "Playground"
+  ],
+  "amenities_dining": [
+    "Bar",
+    "Coffee shop",
+    "Breakfast",
+    "Restaurants",
+    "Food Delivery"
+  ],
+  "amenities_bb": [
+    "Hangers",
+    "Shampoo",
+    "Soap",
+    "Towels",
+    "Bed linen",
+    "Laundry service",
+    "Clothes rack"
+  ],
+  "amenities_safety": ["Fire Extinguisher", "Smoke alarm", "First aid kit"],
+  "amenities_notincluded": [
+    "Washing machine",
+    "Heating",
+    "Hair Dryer",
+    "Private Entrance",
+    "Carbon monoxide alarm",
+    "Free bottled water"
+  ],
+  "rating_cleanliness": "3.5",
+  "rating_communication": "3.5",
+  "rating_checkin": "4.0",
+  "rating_accuracy": "4.0",
+  "rating_Loaction": "3.5",
+  "rating_value": "4.0",
+  "reviews": [
+    {
+      "name": "Londonneveragain",
+      "dated": "December 2019",
+      "review": "We stayed from 17th to 21st December had a very pleasant stay. Excellent rooms, towels and bedding chaNeed daily. Food was very reasonable and good quality. Would recommend this hotel. The area is not geared up for tourist though"
+    },
+    {
+      "name": "Sathish",
+      "dated": "October 2019",
+      "review": "Resort was good. We had pleasant stay there. Complimentary break fast was good in taste and variety. Staff are friendly. Worth to spend time there.Swimming pool is well maintained. Car parking is without roof that made the car fully exposed to hot sun. This can be better managed with a roof."
+    },
+    {
+      "name": "Kamil",
+      "dated": "January 2020",
+      "review": "we stayed at this hotel right for 3 days right after new year. the hotel is located far away from the city center and airport (30 - 40 min drive). but, given the rithm of chennai, this hotel provides a pleasant escape from the craziness around :) in particular, we liked the very green territory and unique architecture. rooms were clean and comfortable."
+    },
+    {
+      "name": "Gauri",
+      "dated": "May 2020",
+      "review": "The room was really nice and the host was very helpful."
+    },
+    {
+      "name": "Abhishek",
+      "dated": "March 2020",
+      "review": "Home away from home! Located in a calm neighborhood, an ideal place if one wants to step out for an evening stroll. Thank you so much for the hospitality and to have made our stay a very comfortable and a memorable one. Cheers!!"
+    },
+    {
+      "name": "Brenda",
+      "dated": "March 2019",
+      "review": "Serene and peaceful resort in a great location, rooms are excellent set in beautiful gardens. Buffett breakfast superb nothing too much for the very friendly staff. Would certainly recommend."
+    },
+    {
+      "name": "Bibin",
+      "dated": "December 2018",
+      "review": "Ideal location, close to the main road and walking distance to the beach. They lease the lawns and function rooms for parties. The music from the lawns and function rooms are very disturbing and can he heard in the rooms."
+    },
+    {
+      "name": "Thomson",
+      "dated": "July 2018",
+      "review": "Food was good but waiting time is poor. Two single bed provide and stay was over all just a compromise since there is no availability of rooms nor possibility of upgrading the room....."
+    },
+    {
+      "name": "Vikas",
+      "dated": "January 2018",
+      "review": "Stayed here for 2 nights, beautiful house with great hospitality. Area where the house is located is quite green and gives you a resort room like feeling as the host mentioned. Overall a perfect stay."
+    },
+    {
+      "name": "Savitha",
+      "dated": "September 2018",
+      "review": "Good room, spacious lawn and good sized pool for kids. Menu in restaurant is very limited, customer service in restaurant is very poor, check in/ check out very slow. Good premises let down by staff. "
+    },
+    {
+      "name": "Mark",
+      "dated": "February 2018",
+      "review": "Calm peace hotel. Well maintained. Near the beach."
+    },
+    {
+      "name": "Suraz",
+      "dated": "February 2018",
+      "review": "Had a great time, played cricket , shuttle , volley ball and indoor games too. Had good time in swimming pool but very strict on nylon clothing in pool.Food was also very decent and serving persons both room and hotel are very good"
+    }
+  ],
+  "sitter_name": "Petancia Pet Care",
+  "sitter_description": "Petancia Pet Care is a place where you can hand over your pets in goods hands!They treat your pets as their own pets!!Without hesitation the pet owners can give your pets without worries when you are going somewhere long!!They are more caring and very responsible in what they do!!So I completely prefer Petancia Pet Care!!",
+  "sitter_mail": "petpent@gmail.com",
+  "sitter_phone": "9150555222",
+  "sitter_care": "4.4",
+  "sitter_value": "4.3",
+  "sitter_knowledge": "4.6",
+  "sitter_images": [
+    { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter11.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter12.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter13.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter14.jpg" }
+  ],
+  "sitter_available": [true, false],
+
+  "spa_name": "Pretty Pawz",
+  "spa_images": [
+    { "url": "http://localhost:3001/Hotels/Chennai/spa/spa21.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/spa/spa22.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/spa/spa23.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/spa/spa24.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/spa/spa25.jpg" }
+  ],
+  "sap_services": [
+    "Professional and qualified people.",
+    "We offer grooming services that include basic clean-up services such as bathing, ear-cleaning, blow-drying, brush and de-shedding.",
+    "Pretty Pawz also provides more indulgent facilities like hair styling, pawdicure and much more."
+  ],
+  "spa_mail": "pawzpretty@gmail.com",
+  "spa_phone": "7338777847",
+  "spa_care": "4.4",
+  "spa_value": "4.2",
+  "spa_quality": "4.6",
+  "spa_available": [false, true],
+
+  "map_description_short": "Situated in Chennai City Center, Green Meadows Resort is the perfect place to experience Chennai and its surroundings. With its location just 15.00 Km from the city center and 16.00 Km from the airport, this 3-star hotel attracts numerous travelers each year. Also within easy reach are Ashtalakshmi Temple, Annai Vailankanni Church, Cholamandal Artists' Village. ",
+  "map_description_getting_around": "OLA/Uber and other cabs services available 24/7.Within a 2 Kms radius, there are multiple bus stops.If you need to park your 2 or 4 wheeler, we provide ample parking space in our basement.Bandappa Garden is a 5 minute walk from the guest house.",
+  "ppn": "4000",
+  "service_fee": "434",
+  "taxes": "22",
+
+  "spa_cost": "700",
+  "sitter_cost": "350",
+
+  "host_phone": "1234567890",
+  "host_mail": "greenmead@gmail.com",
+  "hotelID": "010203",
+  "latitude": "12.9609572",
+  "longitude": "80.2583858",
+  "type": "RESORT"
+}

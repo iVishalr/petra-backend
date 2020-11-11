@@ -1,0 +1,166 @@
+{
+  "images": [
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel4-1.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel4-2.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel4-3.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel4-4.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel4-5.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel4-6.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/images/Hotel4-7.jpg" }
+  ],
+  "title": "Park Hyatt Chennai",
+  "ratings": "5.0",
+  "ratings_no": "1651",
+  "location": "Raj Bhavan,Chennai",
+  "sub_title": "Lovely room with a resort feel in city",
+  "guests": "3",
+  "beds": [true, false],
+  "bedrooms": [true],
+  "bathrooms": [true],
+  "description_short": "Park Hyatt Chennai also offers many facilities to enrich your stay in Chennai. While lodging at this wonderful property, guests can enjoy 24-hour room service, free Wi-Fi in all rooms, 24-hour security, daily housekeeping, postal service.",
+  "the_space": "In addition, all guestrooms feature a variety of comforts.",
+  "guest_access": "Park Hyatt Chennai is a smart choice for travelers to Chennai, offering a relaxed and hassle-free stay every time.",
+  "guest_access_points": [
+    "Many rooms even provide television LCD/plasma screen, bathroom phone, clothes rack, complimentary tea, dressing room to please the most discerning guest. ",
+    "The hotel's hot tub, fitness center, sauna, golf course (within 3 km), outdoor pool are ideal places to relax and unwind after a busy day."
+  ],
+  "other": " ",
+  "amenities": {
+    "lift": true,
+    "ac": true,
+    "wifi": true,
+    "parking": true,
+    "laptop": true,
+    "disabled": true,
+    "tv": true,
+    "infant": false
+  },
+  "amenities_basic": [
+    "Wifi",
+    "Air Conditioning",
+    "TV",
+    "Essentials",
+    "Hot water"
+  ],
+  "amenities_facilities": [
+    "Elevator",
+    "Facilities for disabled",
+    "Fitness center",
+    "Nightclub",
+    "Sauna/Spa/Massage",
+    "Horseback riding",
+    "Free Parking on premises"
+  ],
+  "amenities_dining": ["Bar", "Coffee shop", "Restaurants", "BBQ"],
+  "amenities_bb": [
+    "Hair dryer",
+    "Hangers",
+    "Shampoo",
+    "Soap",
+    "Towels",
+    "Bed linen",
+    "Laundry service",
+    "Daily Housekeeping"
+  ],
+  "amenities_safety": ["Fire Extinguisher", "First aid kit", "Smoke alrams"],
+  "amenities_notincluded": [
+    "Washing machine",
+    "Heating",
+    "Private Entrance",
+    "Carbon monoxide alarm"
+  ],
+  "rating_cleanliness": "5.0",
+  "rating_communication": "5.0",
+  "rating_checkin": "4.9",
+  "rating_accuracy": "4.9",
+  "rating_Loaction": "4.5",
+  "rating_value": "4.8",
+  "reviews": [
+    {
+      "name": "Kamolmas",
+      "dated": "November 2020",
+      "review": "My stay at the hotel was just superb. All the facilities are of exceptional standards, as one would expect from a Hyatt hotel. However, above and beyond my expectations was the hospitality of the staff who had the 'can-do' attitudes and made me feel welcome to ask for assistance.I never actually felt quite sad having to leave a hotel like when I had to leave Park Hyatt Chennai, and I've traveled extensively. It's the people who made this hotel truly exceptional."
+    },
+    {
+      "name": "Nitin",
+      "dated": "July 2020",
+      "review": "Super clean. The balcony is the best."
+    },
+    {
+      "name": "Alena",
+      "dated": "July 2020",
+      "review": "I will always choose this hotel when I get back to Chennai and will be recommending it to friends.I came to Chennai from Delhi, where I left my credit card at the airport. Can you imagine my state when I found it? The hotel staff calmed me and helped me to find this card. They have done everything possible so that I could feel their support and concern for me."
+    },
+    {
+      "name": "Prabhu",
+      "dated": "May 2020",
+      "review": "This was the best stay ever in Chennai for us. The Staff were very courteous and quite helpful. Everything was quite systematic with a personal touch. Whenever we would visit Chennai, will surely stay here."
+    },
+    {
+      "name": "Eere",
+      "dated": "March 2020",
+      "review": "One of the best i stay in Chennai. Very new and modern has reasonably big rooms. Hotel staff were great very friendly and welcoming even though I was only there for one night stay and would highly reccomend this hotel to others."
+    },
+    {
+      "name": "Gayathri",
+      "dated": "February 2020",
+      "review": "This is my 5th time staying at Park Hyatt, it feels like my second home. The staff are friendly and helpful. I would like to say a special thanks to Mr. Abhishek for booking a cab for me and the security guards who got me an auto whenever I needed one. Staff at the Antahpura spa are phenomenal. Thanks Park Hyatt!"
+    },
+    {
+      "name": "Vandana",
+      "dated": "February 2020",
+      "review": "Had an extremely comfortable stay at the Park Hyatt. Everything from rooms to the service is superb! The food too was excellent, although we only ordered room service... Definitely a hotel we will visit again and again! "
+    }
+  ],
+  "sitter_name": "Shiro Pet Home",
+  "sitter_description": "8I can assure you to make your pet feel home and provide all his basic necessities . I strive towards providing a cage free and home feel environment to my furry guests. The basic needs and necessity like food, water, litter area, toys will be provided. when it's under my care, i can assure you your pets is in good hands",
+  "sitter_mail": "shrirocare@gmail.com",
+  "sitter_phone": "9033458786",
+  "sitter_care": "5",
+  "sitter_value": "4.85",
+  "sitter_knowledge": "4.9",
+  "sitter_images": [
+    { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter21.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter22.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter23.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter24.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter25,jpg" }
+  ],
+  "sitter_available": [true, true],
+
+  "spa_name": "Cutz to Cuddlez Spa",
+  "spa_images": [
+    { "url": "http://localhost:3001/Hotels/Chennai/spa/spa11.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/spa/spa12.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/spa/spa13.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/spa/spa14.jpg" },
+    { "url": "http://localhost:3001/Hotels/Chennai/spa/spa15.jpg" }
+  ],
+  "sap_services": [
+    "CERTIFIED & PROFESSIONAL dog groomers in chennai, Specialized in grooming all dog breeds.",
+    "We offer grooming services that include basic clean-up services such as bathing, ear-cleaning, blow-drying, brush and de-shedding.",
+    "Paw Paradise also provides more indulgent facilities like hair styling, pawdicure and much more."
+  ],
+  "spa_mail": "cutztocuddlez@gmail.com",
+  "spa_phone": "9962921307",
+  "spa_care": "4.7",
+  "spa_value": "4.8",
+  "spa_quality": "4.7",
+  "spa_available": [false, true],
+
+  "map_description_short": "Ideal for fun and relaxation, Park Hyatt Chennai is located in the Chennai City Center area of Chennai. The hotel is not too far from the city center: just 4.5 Km away, and it normally takes about 20 minutes to reach the airport.  ",
+  "map_description_getting_around": "With its convenient location, the hotel offers easy access to the city's must-see destinations.OLA/Uber and other cabs services available 24/7.Within a 2 Kms radius, there are multiple bus stops.If you need to park your 2 or 4 wheeler, we provide ample parking space in our basement.Bandappa Garden is a 5 minute walk from the guest house.",
+  "ppn": "5000",
+  "service_fee": "729",
+  "taxes": "18",
+
+  "spa_cost": "1200",
+  "sitter_cost": "400",
+
+  "host_phone": "1234567890",
+  "host_mail": "parkhyatt@gmail.com",
+  "hotelID": "010204",
+  "latitude": "13.0107679",
+  "longitude": "80.2214571",
+  "type": "HOTEL"
+}
