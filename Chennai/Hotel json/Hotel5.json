@@ -1,0 +1,121 @@
+{
+    "images":[
+        { "url": "Hotel5-1.jpg"},
+        { "url": "Hotel5-2.jpg"},
+        { "url": "Hotel5-3.jpg"},
+        { "url": "Hotel5-4.jpg"},
+        { "url": "Hotel5-5.jpg"},
+        { "url": "Hotel5-6.jpg"},
+        { "url": "Hotel5-7.jpg"},
+        { "url": "Hotel5-8.jpg"},
+        { "url": "Hotel5-9.jpg"}
+    ],
+    "title": "Taj Coromandel",
+    "ratings": "5",
+    "ratings_no": "192",
+    "location": "MG Road, Chennai",
+    "sub_title": "Lovely room with a resort feel in city",
+    "guests": "3",
+    "beds": [true,false],
+    "bedrooms": [true],
+    "bathrooms": [true],
+    "description_short": "Offering a fusion of rich South Indian design cues and European elegance, Taj Coromandel features a large landscaped pool, fitness facilities and a business centre. Situated in Chennai’s city centre, air-conditioned rooms offer a flat-screen TV and a spacious marble bathroom.",
+    "the_space": "Offering 5 dining options, highlights include Southern Spice, Prego’s fine Italian dining, Chinese specialities at Golden Dragon and all-day international dining at Anise. Refreshing beverages can be enjoyed at Live it up at Chipstead. 24-hour room service is available.",
+    "guest_access": "A tea/coffee maker, ironing facilities and seating area are a standard in all rooms. Private bathrooms feature bathrobes, a bathtub and separate shower cubicle.",
+    "guest_access_points": ["Staff can provide concierge and childcare services. Added conveniences include a beauty salon, gift shop and a tour desk. Guests can pamper themselves at the Jiva Grande Spa."],
+    "other": "We speak your language!",
+    "amenities": {
+        "lift": true,
+        "ac":true, 
+        "wifi": true, 
+        "parking":true, 
+        "laptop": true, 
+        "disabled": true, 
+        "tv": true, 
+        "infant": true
+    },
+    "amenities_basic": ["Wifi","Air Conditioning", "TV", "Essentials", "Tea/Coffee makers"],
+    "amenities_facilities": ["Elevator","Facilities for disabled guests", "Free Parking on premises","Sun terrace","Garden","Swimming pool","Fax/Photocopying","Sauna/Spa"],
+    "amenities_dining": ["Bottle of water","Restaurant","Refrigerator","Snack bar","Bar","Minibar"],
+    "amenities_bb": ["Hangers", "Shampoo", "Soap", "Towels", "Bed linen","Daily housekeeping","Dry cleaning","Laundry"],
+    "amenities_safety": ["Fire Extinguisher","CCTV","Smoke alarm","Security alarm","Safety deposit box"],
+    "amenities_notincluded": ["Washing machine", "Microwave", "Hair Dryer", "Private Entrance", "Carbon monoxide alarm"],
+    "rating_cleanliness": "4.9",
+    "rating_communication": "5.0",
+    "rating_checkin": "4.9",
+    "rating_accuracy": "4.7",
+    "rating_Loaction": "4.8",
+    "rating_value": "4.5",
+    "reviews": [
+        {"name": "Anish", 
+        "dated": "October 2020", 
+        "review": "Excellent bathroom, especially the tub. Comfortable beds and pillows. However, I would have preferred my bed to be slightly larger in width. Also, the breakfast is pretty good, especially tea."
+    },
+        {"name": "Uma", 
+        "dated": "March 2020", 
+        "review": "Love the restaurants.\nMy favourite is Southern spice.\nThis trip I didn’t have the time to go there for a meal."
+    },
+        {"name": "Prakash", 
+        "dated": "January 2020", 
+        "review": "Good Ambiance. Exceptional Staff with a Smile."
+    },
+        {"name": "Gebin Maxey", 
+        "dated": "January 2020", 
+        "review": "Quality and service you would expect from Taj. Was only here for a short overnight stay. Good gym and pool! Bathroom had a rain shower which is nice."
+    },
+        {"name": "Sridhar", 
+        "dated": "January 2020", 
+        "review": "Lovely location. Lovely staff who take care of guests as their family. And the food is ethereal"
+    },
+        {"name": "Rachel", 
+        "dated": "October 2019", 
+        "review": "Beautiful hotel with superb staff - they are there every time you need them for anything. On site restaurants were a bit pricey but everything else was flawless."
+    }
+    ],
+    "sitter_name": "Petancia Pet Care",
+    "sitter_description": "Petancia Pet Care is a place where you can hand over your pets in goods hands!They treat your pets as their own pets!!Without hesitation the pet owners can give your pets without worries when you are going somewhere long!!They are more caring and very responsible in what they do!!So I completely prefer Petancia Pet Care!!",
+    "sitter_mail": "petpent@gmail.com",
+    "sitter_phone": "9150555222",
+    "sitter_care": "4.4",
+    "sitter_value": "4.3",
+    "sitter_knowledge": "4.6",
+    "sitter_images": [
+        { "url": "sitter11.jpg"},
+        { "url": "sitter12.jpg"},
+        { "url": "sitter13.jpg"},
+        { "url": "sitter14.jpg"}
+    ],
+    "sitter_available": [true, true],
+    
+    "spa_name": "Cutz to Cuddlez Spa",
+    "spa_images": [
+        { "url": "spa11.jpg"},
+        { "url": "spa12.jpg"},
+        { "url": "spa13.jpg"},
+        { "url": "spa14.jpg"},
+        { "url": "spa15.jpg"}
+    ],
+    "sap_services": ["CERTIFIED & PROFESSIONAL dog groomers in chennai, Specialized in grooming all dog breeds.", "We offer grooming services that include basic clean-up services such as bathing, ear-cleaning, blow-drying, brush and de-shedding.","Paw Paradise also provides more indulgent facilities like hair styling, pawdicure and much more."],
+    "spa_mail": "cutztocuddlez@gmail.com",
+    "spa_phone": "9962921307",
+    "spa_care": "4.7",
+    "spa_value": "4.8",
+    "spa_quality": "4.7",
+    "spa_available": [true, true],
+    
+    "map_description_short": "Just 1.5 km from Spencer's Plaza Shopping Mall, Hotel Taj Coromandel is 3.7 km from Marina Beach. It provides free parking and is 17 km from Chennai International Airport. ",
+    "map_description_getting_around": "OLA/Uber and other cabs services available 24/7.Within a 2 Kms radius, there are multiple bus stops.If you need to park your 2 or 4 wheeler, we provide ample parking space in our basement.Bandappa Garden is a 5 minute walk from the guest house.",
+    "ppn": "4125",
+    "service_fee": "495",
+    "taxes": "18",
+
+    "spa_cost": "500",
+    "sitter_cost": "350",
+    
+    "host_phone": "1234567890",
+    "host_mail": "tajcoro@gmail.com",
+    "hotelID": "010205",
+    "lalitude": "13.0581651",
+    "longitude": "80.245148",
+    "type": "HOTEL"
+}

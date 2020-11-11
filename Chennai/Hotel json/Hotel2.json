@@ -1,0 +1,146 @@
+{
+    "images":[
+        { "url": "Hotel2-1.jpg"},
+        { "url": "Hotel2-2.jpg"},
+        { "url": "Hotel2-3.jpg"},
+        { "url": "Hotel2-4.jpg"},
+        { "url": "Hotel2-5.jpg"},
+        { "url": "Hotel2-6.jpg"},
+        { "url": "Hotel2-7.jpg"},
+        { "url": "Hotel2-8.jpg"},
+        { "url": "Hotel2-9.jpg"}
+    ],
+    "title": "Home for business and weekend getaway",
+    "ratings": "4.89",
+    "ratings_no": "18",
+    "location": "Pudupakkam,Chennai",
+    "sub_title": "Entire bungalow hosted by Padma",
+    "guests": "10",
+    "beds": [true,true,false],
+    "bedrooms": [true,true,true],
+    "bathrooms": [true,true,true],
+    "description_short": "Closer to Chennai the sprawling 4000 sqft bungalow built to live with Nature. Built with Natural stones, Athangudi Tiles, 16 inch ceiling and Chettinad style large windows provides soothing ambience to the stay fora family or business needs. Surrounded by an acre of farm land with over300 trees of all fruits & seasons, organic vegetables, variety of flowers will invite you to have a long morning leisurely walk before going to office or laze around for a weekend getaway. Come, Stay and have fun.",
+    "the_space": "Calm lifestyle within a Metro. You can enjoy perfect silence during the stay and will be only disturbed by sound of breeze emanating from large trees and coolness from a large pond dotted with temples for locals. Soon to be added with badminton and road cricket infrastructure inside home to have a perfect break. And above all it is just 5 minute walk from Sirusseri IT park to help you with your business needs.",
+    "guest_access": "Access is provided to one bedroom and shared space of the entire house and the surrounding garden . ",
+    "guest_access_points": ["Guests will have complete access to the Home"],
+    "other": "Swiggy uber eats around The guest should arrange for their own food",
+    "amenities": {
+        "lift": false,
+        "ac":true, 
+        "wifi": true, 
+        "parking":true, 
+        "laptop": true, 
+        "disabled": true, 
+        "tv": true, 
+        "infant": true
+    },
+    "amenities_basic": ["Wifi","Air Conditioning","Washing Machine", "TV", "Essentials", "Hot water", "Iron","Laptop-friendly workspace"],
+    "amenities_facilities": ["Free on-street parking", "Free Parking on premises"],
+    "amenities_dining": ["Kitchen","Cooking basics","Refrigerator","Dishes and Silverware","Stove"],
+    "amenities_bb": ["Hangers", "Shampoo", "Hair Dryer", "Towels", "Bed linen"],
+    "amenities_safety": ["Fire Extinguisher","First aid kit"],
+    "amenities_notincluded": ["Smoke Alarms", "Heating", "Carbon monoxide alarm"],
+    "rating_cleanliness": "4.8",
+    "rating_communication": "5.0",
+    "rating_checkin": "5.0",
+    "rating_accuracy": "5.0",
+    "rating_Loaction": "4.6",
+    "rating_value": "4.8",
+    "reviews": [
+        {"name": "Anton", 
+        "dated": "September 2020", 
+        "review": "Padma’s place is exactly as described. The house is large and spacious, located in a her farm in a village just off the highway. It was an excellent getaway for us wanting a break after the lockdown! The beach is also only about 20 minutes away and is a very peaceful stretch of clean sands. Had some lovely walks on the beach. Will definitely be back."
+    },
+        {"name": "Prashant", 
+        "dated": "August 2020", 
+        "review": "Loved the place! Absolutely beautiful, large and very warm support staff. Very calm and serene surroundings. Loved the little village holiday and the chettinad home is done up very aesthetically :)"
+    },
+        {"name": "Russel", 
+        "dated": "March 2020", 
+        "review": "Cool place to plan a friends reunion. Little away from the city and totally private place. Very very very big property and well maintained. Very quick response from the host."
+    },
+        {"name": "Deepaayan", 
+        "dated": "February 2020", 
+        "review": "This property is one of the best I've been to, it is very grand and beautiful and I would definitely recommend it. Mrs Padma the host and the caretaker Mr Sundar were both very courteous and helpful and were available whenever necessary."
+    },
+        {"name": "Subbu", 
+        "dated": "January 2020", 
+        "review": "Pictures aren't deceptive here. The place was as seen in the pictures. A very beautifully created house and touched with the detailing that's gone behind in creating this house. The centre hall and the temple is the main attraction. Very spacious house equivalent to more than 3 times the size of your regular room in Novotel or ibis. The access road to the property was a bit scary but the fact is it's a village road and there was not a second of security or safety issue felt. The property supervisor was very helpful and opened the gates even at middle of the night if we were late or had to leave early morning when we called him. Overall a good place to stay and be relaxed within an hour from the city"
+    },
+        {"name": "Rinkesh", 
+        "dated": "December 2019", 
+        "review": "Amazing place. House is made up in traditional South Indian style. Its a massive Bungalow which can accomodate 10+ people easily. The host was very accommodative of all our requests. Although the host doesn't stay there, you'll never find a reason to complaint, thanks to the helper. He was always available for our requests, whether late night or early morning. Very close to the main road with 2 malls hardly 3 KMS away from the property. Don't even give a second thought to book this place! :)",
+    },
+        {"name": "Ayshwarya", 
+        "dated": "December 2019", 
+        "review": "The space is so thoughtfully built and was a delight to stay in with lots of natural light and ventilation! Location is in a unique landscape with a distant view of the It park in one side and a beautiful pond on the other. The double height space is really airy and opening up to great views on all sides. Each of the rooms are largely sized with clean linen. The caretaker and the host were prompt and supportive. Ideal to spend some quality time with friends and family!!"
+    },
+        {"name": "Arnold", 
+        "dated": "September 2019", 
+        "review": "Beautiful and a peaceful space. Thoughtfully built. Loved the ambience of the home and the surrounding. Fully secured with CCTV. You will not hear any noise/sounds, except the birds chirping especially in the morning. A wonderful experience overall."
+    },
+        {"name": "Abhishek", 
+        "dated": "August 2019", 
+        "review": "I would highly recommend this place if you want to experience: 1) South Indian Architecture (Chettinad Style House): They built this home for themselves so you will find how much attention they gave it in building this beautiful home. It is big enough for 2/3 families to accommodate. Though I stayed alone. 2) Greenery: The place is in a very green patch and the premises itself have a lot of vegetations and flower plants. Mr. Sundar Rajan(caretaker/security) walked me through the field and showed what all has been planted. 3) South Indian Temple (Small-local ones): Right opposite to Padma's house there is beautiful small temple of local village people. Also, you will find ancient styled water reservoir and big old banyan tree beside that temple. Checkout with temple-priest to know more about temple & area :) 4) To relax: It is relaxing to sit and spend time there. Evenings will be welcomed by temple's bhajans/bells. Though basic snacks/tea/coffee were taken care off but if you want to have meal you need to walk a kilometre and you can get cheap and delicious South Indian food. They have home delivery too, but I loved walking and having there. Mr. Sundar Rajan(caretaker) is a great guy and he takes utmost care. He even offered me to drop to restaurant while Ms. Padma ensured that I'm comfortable. The area is close to IT park and Kovalam beach is around 5 Kms from this place. You can easily get Uber for any transportation requirement. Overall it was a great stay for me. I will surely visit and stay again whenever I'll be coming to Chennai."
+    },
+        {"name": "Kezhia", 
+        "dated": "August 2019", 
+        "review": "If you are looking for a place to relax, away from all the noise yet close to some amazing tourist spots. Then look no further! This is the place you should stay in when you visit. I would love to rate this place 5/5 for the amazing architecture and greenery all around. You will really be impressed by the hospitality and the house by itself. It was a really clean space with minimal furniture. Would love to plan another vacation just to stay in this house again"
+    },
+        {"name": "Allan", 
+        "dated": "February 2020", 
+        "review": "We have stayed at many Airbnb’s all around the world and this was by far our best experience. The house was incredible. The caretaker was super friendly. Having a lovely garden around the house was very nice. The location was ideal for us with great access to the beach and Mahabalipuram as well as Chennai itself. It is also about 10 minutes from the IT park if you come for buisiness. Don’t let the remote location for you, Uber rides are easy to come by. I really can’t recommend the place strongly enough! Allan"
+    },
+        {"name": "Jagan", 
+        "dated": "September 2019", 
+        "review": "Padma's place is a wonderful, luxuirious, very spacious and a beautiful bungalow built in Tamil architecture. I am sure any family will have a great time here. Also the location is great if you want to be close to OMR. The host was reachable anytime and the caretaker is a kind man who helped us with anything that we needed during our stay. I would definitely stay here again."
+    }   
+    ],
+    "sitter_name": "Shiro Pet Home",
+    "sitter_description": "8I can assure you to make your pet feel home and provide all his basic necessities . I strive towards providing a cage free and home feel environment to my furry guests. The basic needs and necessity like food, water, litter area, toys will be provided. when it's under my care, i can assure you your pets is in good hands",
+    "sitter_mail": "shrirocare@gmail.com",
+    "sitter_phone": "9033458786",
+    "sitter_care": "5",
+    "sitter_value": "4.85",
+    "sitter_knowledge": "4.9",
+    "sitter_images": [
+        { "url": "sitter21.jpg"},
+        { "url": "sitter22.jpg"},
+        { "url": "sitter23.jpg"},
+        { "url": "sitter24.jpg"},
+        { "url": "sitter25,jpg"}
+    ],
+    "sitter_available": [true, true],
+    
+    "spa_name": "Pretty Pawz",
+    "spa_images": [
+        { "url": "spa21.jpg"},
+        { "url": "spa22.jpg"},
+        { "url": "spa23.jpg"},
+        { "url": "spa24.jpg"},
+        { "url": "spa25.jpg"}
+    ],
+    "sap_services": ["Professional and qualified people.", "We offer grooming services that include basic clean-up services such as bathing, ear-cleaning, blow-drying, brush and de-shedding.","Pretty Pawz also provides more indulgent facilities like hair styling, pawdicure and much more."],
+    "spa_mail": "pawzpretty@gmail.com",
+    "spa_phone": "7338777847",
+    "spa_care": "4.4",
+    "spa_value": "4.2",
+    "spa_quality": "4.6",
+    "spa_available": [false, true],
+    
+    "map_description_short": "5 min walk to Sirusseri Surrounded by IT park, Residential community, Village getaway, Sports academy and yet private in a 1.3 acre bungalow. one hour to Pondicherry, 30 minutes to Mahabalipuram, 30 minutes to Vandalur Zoological park, 15 minute to virgin beachlands, one hour to kanchipuram for spiritual immersion and 30 minutes to Adayar - shopping hub of Chennai. ",
+    "map_description_getting_around": "It's in an accessible location to online booking transportation services such as OLA , UBER and also food delivery services such as SWIGGY..",
+    "ppn": "2000",
+    "service_fee": "482",
+    "taxes": "18",
+
+    "spa_cost": "1000",
+    "sitter_cost": "200",
+    
+    "host_phone": "1234567890",
+    "host_mail": "padmap@gmail.com",
+    "hotelID": "010201",
+    "lalitude": "13.0727942",
+    "longitude": "80.1945247",
+    "type": "HOTEL"
+}
