@@ -4,6 +4,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const { OAuth2Client } = require("google-auth-library");
 const jwt = require("jsonwebtoken");
+const fs = require("fs");
 
 const app = express();
 
@@ -16,6 +17,7 @@ const configureOptions = {
 app.use(cors(configureOptions));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static("./"));
 
 //MongoDB code below
 mongoose.connect(
@@ -99,7 +101,7 @@ const hotelCollection = new mongoose.Schema({
   location: String,
   sub_title: String,
   guests: String,
-  beds: [Boolean, Boolean],
+  beds: [Boolean],
   bedrooms: [Boolean],
   bathrooms: [Boolean],
   description_short: String,
@@ -124,6 +126,7 @@ const hotelCollection = new mongoose.Schema({
   amenities_safety: [String],
   amenities_notincluded: [String],
   rating_cleanliness: String,
+  rating_checkin: String,
   rating_communication: String,
   rating_accuracy: String,
   rating_Loaction: String,
@@ -147,6 +150,7 @@ const hotelCollection = new mongoose.Schema({
       url: String,
     },
   ],
+  sitter_available: [Boolean],
   spa_name: String,
   spa_images: [
     {
@@ -159,6 +163,7 @@ const hotelCollection = new mongoose.Schema({
   spa_care: String,
   spa_value: String,
   spa_quality: String,
+  spa_available: [Boolean],
   map_description_short: String,
   map_description_getting_around: String,
   ppn: String,
@@ -168,6 +173,9 @@ const hotelCollection = new mongoose.Schema({
   sitter_cost: String,
   host_phone: String,
   host_mail: String,
+  latitude: String,
+  longitude: String,
+  type: String,
 });
 
 const User = new mongoose.model("PetraUser", userSchema);
@@ -179,197 +187,59 @@ const HotelCollection = new mongoose.model(
   hotelCollection
 );
 
-// newHotelCollection = new HotelCollection({
-//   hotelID: 2,
-//   images: [
-//     {
-//       url:
-//         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//     },
-//     {
-//       url:
-//         "https://www.expatkings.com/wp-content/uploads/2018/10/Airbnb-rental-tips.-Hostmaker-1-620x349.jpg",
-//     },
-//     {
-//       url:
-//         "https://www.expatkings.com/wp-content/uploads/2018/10/Airbnb-rental-tips.-Hostmaker-1-620x349.jpg",
-//     },
-//     {
-//       url:
-//         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//     },
-//     {
-//       url:
-//         "https://www.expatkings.com/wp-content/uploads/2018/10/Airbnb-rental-tips.-Hostmaker-1-620x349.jpg",
-//     },
-//   ],
-//   title: "JW Marriot",
-//   ratings: "4.5",
-//   ratings_no: "8",
-//   location: "Bangalore, Karnataka, India",
-//   sub_title: "Sub-Title",
-//   guests: "no of Guests per room",
-//   beds: [true, false],
-//   bedrooms: [true],
-//   bathrooms: [true],
-//   description_short: "short description",
-//   the_space: "about space",
-//   guest_access: "details",
-//   guest_access_points: ["1", "2", "3"],
-//   other: "other things to note",
-//   amenities: {
-//     lift: true,
-//     ac: false,
-//     wifi: true,
-//     parking: true,
-//     laptop: true,
-//     disabled: true,
-//     tv: false,
-//     infant: false,
-//   },
-//   amenities_basic: ["Wifi", "TV", "AC", "Laptop"],
-//   amenities_facilities: ["Hot water", "Lift", "Free Parking"],
-//   amenities_dining: ["Microwave", "Refrigerator"],
-//   amenities_bb: ["Hair dryer", "Hanger", "Shampoo", "Bed linen"],
-//   amenities_safety: ["Fire Extinguisher"],
-//   amenities_notincluded: ["Smoke Alarms"],
-//   rating_cleanliness: "4.5",
-//   rating_communication: "4.5",
-//   rating_checkin: "4.0",
-//   rating_accuracy: "4.2",
-//   rating_Loaction: "3.9",
-//   rating_value: "5",
-//   reviews: [
-//     {
-//       name: "name 1",
-//       dated: "october 2020",
-//       review: "hello iam here. I am there .iam everywhere",
-//     },
-//     {
-//       name: "name 2",
-//       dated: "october 2020",
-//       review:
-//         "hello iam here. I am there .iam everywhere.hello iam here. I am there .iam everywhere",
-//     },
-//     {
-//       name: "name 3",
-//       dated: "october 2020",
-//       review:
-//         "hello iam here. I am there .iam everywherehello iam here. I am there .iam everywherehello iam here. I am there .iam everywhere",
-//     },
-//     {
-//       name: "name 4",
-//       dated: "october 2020",
-//       review:
-//         "hello iam here. I am there .iam everywherehello iam here. I am there .iam everywherehello iam here. I am there .iam everywherehello iam here. I am there .iam everywherehello iam here. I am there .iam everywherehello iam here. I am there .iam everywhere",
-//     },
-//     {
-//       name: "name 5",
-//       dated: "october 2020",
-//       review:
-//         "hello iam here. I am there .iam everywherehello iam here. I am there .iam everywhere",
-//     },
-//     {
-//       name: "name 6",
-//       dated: "october 2020",
-//       review:
-//         "hello iam here. I am there .iam everywherehello iam here. I am there .iam everywhere",
-//     },
-//     {
-//       name: "name 7",
-//       dated: "october 2020",
-//       review:
-//         "hello iam here. I am there .iam everywherehello iam here. I am there .iam everywhere",
-//     },
-//     {
-//       name: "name 8",
-//       dated: "october 2020",
-//       review:
-//         "hello iam here. I am there .iam everywherehello iam here. I am there .iam everywhere",
-//     },
-//   ],
-//   sitter_name: "name",
-//   sitter_description: "description of sitter",
-//   sitter_mail: "helllo@gmail.com",
-//   sitter_phone: "1234567890",
-//   sitter_care: "4.5",
-//   sitter_value: "4",
-//   sitter_knowledge: "4.3",
-//   sitter_images: [
-//     {
-//       url:
-//         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//     },
-//     {
-//       url:
-//         "https://www.expatkings.com/wp-content/uploads/2018/10/Airbnb-rental-tips.-Hostmaker-1-620x349.jpg",
-//     },
-//     {
-//       url:
-//         "https://www.expatkings.com/wp-content/uploads/2018/10/Airbnb-rental-tips.-Hostmaker-1-620x349.jpg",
-//     },
-//     {
-//       url:
-//         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//     },
-//     {
-//       url:
-//         "https://www.expatkings.com/wp-content/uploads/2018/10/Airbnb-rental-tips.-Hostmaker-1-620x349.jpg",
-//     },
-//   ],
-//   spa_name: "name",
-//   spa_images: [
-//     {
-//       url:
-//         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//     },
-//     {
-//       url:
-//         "https://www.expatkings.com/wp-content/uploads/2018/10/Airbnb-rental-tips.-Hostmaker-1-620x349.jpg",
-//     },
-//     {
-//       url:
-//         "https://www.expatkings.com/wp-content/uploads/2018/10/Airbnb-rental-tips.-Hostmaker-1-620x349.jpg",
-//     },
-//     {
-//       url:
-//         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//     },
-//     {
-//       url:
-//         "https://www.expatkings.com/wp-content/uploads/2018/10/Airbnb-rental-tips.-Hostmaker-1-620x349.jpg",
-//     },
-//   ],
-//   sap_services: [
-//     "description of spa",
-//     "description of spa",
-//     "description of spa",
-//   ],
-//   spa_mail: "helllo@gmail.com",
-//   spa_phone: "1234567890",
-//   spa_care: "4.5",
-//   spa_value: "4",
-//   spa_quality: "4.3",
-//   map_description_short: "short description",
-//   map_description_getting_around:
-//     "Its a 2 minute walk to the Metro Station. Half a minute walk to the Main Road, where auto-rickshaws will be in abundance. OLA/Uber and other cabs services available 24/7. Within a 2 Kms radius, there are multiple bus stops. If you need to park your 2 or 4 wheeler, we provide ample parking space in our basement. Hosmat Hospital is a 5 minute walk from the guest house.",
-//   ppn: "2000",
-//   service_fee: "353",
-//   taxes: "243",
-//   spa_cost: "200",
-//   sitter_cost: "50",
-//   host_phone: "8964287513",
-//   host_mail: "peTra@pes.edu",
-// });
+//-----Uncomment the following lines of code to insert data into mongodb-----//
+
+//This will add data into a collection called 'allhotelcollections'in petraDB
+
+//Careful : Please change the file path after every insertion. If not done
+//          same thing gets inserted into the database again
+
+//Path to be changed after insertion : './Hotels/Bangalore/data/Hotel<new>.json'
+
+// var newHotel1 = JSON.parse(
+//   fs.readFileSync("./Hotels/Bangalore/data/Hotel6.json", "utf8")
+// );
+// var newHotelCollection = new HotelCollection(newHotel1);
 
 // HotelCollection.insertMany([newHotelCollection], function (err, doc) {
 //   if (err) console.log(err);
 //   else console.log("Inserted Successfully!");
 // });
 
+//-----------------------------------Till here -----------------------------//
+
+//-------Uncomment the following code to insert hotels based on cities------//
+
+// var newHotel1 = JSON.parse(
+//   fs.readFileSync("./Hotels/Bangalore/data/Hotel1.json", "utf8")
+// );
+// var newHotel2 = JSON.parse(
+//   fs.readFileSync("./Hotels/Bangalore/data/Hotel2.json", "utf8")
+// );
+// var newHotel3 = JSON.parse(
+//   fs.readFileSync("./Hotels/Bangalore/data/Hotel3.json", "utf8")
+// );
+// var newHotel4 = JSON.parse(
+//   fs.readFileSync("./Hotels/Bangalore/data/Hotel4.json", "utf8")
+// );
+// var newHotel5 = JSON.parse(
+//   fs.readFileSync("./Hotels/Bangalore/data/Hotel5.json", "utf8")
+// );
+// var newHotel6 = JSON.parse(
+//   fs.readFileSync("./Hotels/Bangalore/data/Hotel6.json", "utf8")
+// );
+
+// // Note: Change the _id property on json given below for a new city
+// // Bengaluru - INDKABLR
+// // Chennai - INDTNCH
+// // Mumbai - INDMHMU
+// // Kolkata - INDWBKO
+// // Delhi - INDHYDE
+// // Hyderabad - INDTEHY
+
 // newHotel = new Hotel({
 //   _id: "INDKABLR",
-//   City: "Bangalore",
+//   City: "Bengaluru",
 //   State: "Karnataka",
 //   Country: "India",
 //   CityLocation: {
@@ -378,216 +248,142 @@ const HotelCollection = new mongoose.model(
 //   },
 //   hotelList: [
 //     {
-//       img:
-//         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//       location: "Bangalore Central",
-//       title: "Stay at this spacious Edwardian House",
-//       description:
-//         "1 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine",
-//       star: 4.73,
-//       price: "£30 / night",
-//       total: "£117 total",
-//       hotelID: 1,
+//       img: newHotel1.images[0].url,
+//       location: newHotel1.location,
+//       title: newHotel1.title,
+//       description: newHotel1.sub_title,
+//       star: Number(newHotel1.ratings),
+//       price: "₹" + newHotel1.ppn + "/night",
+//       total:
+//         "₹" +
+//         String(
+//           Number(newHotel1.ppn) +
+//             Number(newHotel1.taxes) +
+//             Number(newHotel1.service_fee)
+//         ) +
+//         "/night",
+//       hotelID: newHotel1.hotelID,
 //       coordinates: {
-//         latitude: 12.971599,
-//         longitude: 77.594566,
+//         latitude: Number(newHotel1.latitude),
+//         longitude: Number(newHotel1.longitude),
 //       },
-//       photos: [
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//       ],
 //     },
 //     {
-//       img:
-//         "https://www.expatkings.com/wp-content/uploads/2018/10/Airbnb-rental-tips.-Hostmaker-1-620x349.jpg",
-//       location: "Kattriguppe",
-//       title: "Independant luxury studio apartment",
-//       description:
-//         "2 guest · 3 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen",
-//       star: 4.3,
-//       price: "£40 / night",
-//       total: "£157 total",
-//       hotelID: 2,
+//       img: newHotel2.images[0].url,
+//       location: newHotel2.location,
+//       title: newHotel2.title,
+//       description: newHotel2.sub_title,
+//       star: Number(newHotel2.ratings),
+//       price: "₹" + newHotel2.ppn + "/night",
+//       total:
+//         "₹" +
+//         String(
+//           Number(newHotel2.ppn) +
+//             Number(newHotel2.taxes) +
+//             Number(newHotel2.service_fee)
+//         ) +
+//         "/night",
+//       hotelID: newHotel2.hotelID,
 //       coordinates: {
-//         latitude: 12.933435,
-//         longitude: 77.557832,
+//         latitude: Number(newHotel2.latitude),
+//         longitude: Number(newHotel2.longitude),
 //       },
-//       photos: [
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//       ],
 //     },
 //     {
-//       img:
-//         "https://www.smartertravel.com/uploads/2017/07/Untitled-design-8.jpg",
-//       location: "Jayanagar 4th Block",
-//       title: "London Studio Apartments",
-//       description:
-//         "4 guest · 4 bedroom · 4 bed · 2 bathrooms · Free parking · Washing Machine",
-//       star: 3.8,
-//       price: "£35 / night",
-//       total: "£207 total",
-//       hotelID: 3,
+//       img: newHotel3.images[0].url,
+//       location: newHotel3.location,
+//       title: newHotel3.title,
+//       description: newHotel3.sub_title,
+//       star: Number(newHotel3.ratings),
+//       price: "₹" + newHotel3.ppn + "/night",
+//       total:
+//         "₹" +
+//         String(
+//           Number(newHotel3.ppn) +
+//             Number(newHotel3.taxes) +
+//             Number(newHotel3.service_fee)
+//         ) +
+//         "/night",
+//       hotelID: newHotel3.hotelID,
 //       coordinates: {
-//         latitude: 12.92594,
-//         longitude: 77.583038,
+//         latitude: Number(newHotel3.latitude),
+//         longitude: Number(newHotel3.longitude),
 //       },
-//       photos: [
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//       ],
 //     },
 //     {
-//       img:
-//         "https://www.expatkings.com/wp-content/uploads/2018/10/Airbnb-rental-tips.-Hostmaker-1-620x349.jpg",
-//       location: "PES University",
-//       title: "Independant luxury studio apartment",
-//       description:
-//         "2 guest · 3 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen",
-//       star: 4.3,
-//       price: "£40 / night",
-//       total: "£157 total",
-//       hotelID: 4,
+//       img: newHotel4.images[0].url,
+//       location: newHotel4.location,
+//       title: newHotel4.title,
+//       description: newHotel4.sub_title,
+//       star: Number(newHotel4.ratings),
+//       price: "₹" + newHotel4.ppn + "/night",
+//       total:
+//         "₹" +
+//         String(
+//           Number(newHotel4.ppn) +
+//             Number(newHotel4.taxes) +
+//             Number(newHotel4.service_fee)
+//         ) +
+//         "/night",
+//       hotelID: newHotel4.hotelID,
 //       coordinates: {
-//         latitude: 12.935641,
-//         longitude: 77.535857,
+//         latitude: Number(newHotel4.latitude),
+//         longitude: Number(newHotel4.longitude),
 //       },
-//       photos: [
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//       ],
 //     },
 //     {
-//       img:
-//         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//       location: "UB City",
-//       title: "Stay at this spacious Edwardian House",
-//       description:
-//         "1 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine",
-//       star: 4.73,
-//       price: "£30 / night",
-//       total: "£117 total",
-//       hotelID: 5,
+//       img: newHotel5.images[0].url,
+//       location: newHotel5.location,
+//       title: newHotel5.title,
+//       description: newHotel5.sub_title,
+//       star: Number(newHotel5.ratings),
+//       price: "₹" + newHotel5.ppn + "/night",
+//       total:
+//         "₹" +
+//         String(
+//           Number(newHotel5.ppn) +
+//             Number(newHotel5.taxes) +
+//             Number(newHotel5.service_fee)
+//         ) +
+//         "/night",
+//       hotelID: newHotel5.hotelID,
 //       coordinates: {
-//         latitude: 12.9716418,
-//         longitude: 77.5955194,
+//         latitude: Number(newHotel5.latitude),
+//         longitude: Number(newHotel5.longitude),
 //       },
-//       photos: [
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//       ],
 //     },
 //     {
-//       img:
-//         "https://www.smartertravel.com/uploads/2017/07/Untitled-design-8.jpg",
-//       location: "Brigade Millenium",
-//       title: "London Studio Apartments",
-//       description:
-//         "4 guest · 4 bedroom · 4 bed · 2 bathrooms · Free parking · Washing Machine",
-//       star: 3.8,
-//       price: "£35 / night",
-//       total: "£207 total",
-//       hotelID: 6,
+//       img: newHotel6.images[0].url,
+//       location: newHotel6.location,
+//       title: newHotel6.title,
+//       description: newHotel6.sub_title,
+//       star: Number(newHotel6.ratings),
+//       price: "₹" + newHotel6.ppn + "/night",
+//       total:
+//         "₹" +
+//         String(
+//           Number(newHotel6.ppn) +
+//             Number(newHotel6.taxes) +
+//             Number(newHotel6.service_fee)
+//         ) +
+//         "/night",
+//       hotelID: newHotel6.hotelID,
 //       coordinates: {
-//         latitude: 12.8906899,
-//         longitude: 77.5804962,
+//         latitude: Number(newHotel6.latitude),
+//         longitude: Number(newHotel6.longitude),
 //       },
-//       photos: [
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//         {
-//           img:
-//             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-//         },
-//       ],
 //     },
 //   ],
 // });
 
 // Hotel.insertMany([newHotel], function (err, doc) {
-//   if (err) console.log("Hotel did not get inserted!");
-//   else console.log("Hotel got inserted into Hotel collection of PetraDB!");
+//   if (err) {
+//     console.log("Hotel did not get inserted!");
+//     console.log(err);
+//   } else console.log("Hotel got inserted into Hotel collection of PetraDB!");
 // });
+
+//-------------------------------Till Here-------------------------------------//
 
 const client = new OAuth2Client(
   "1065157938718-eudu1eo9ic1l7dduroe3n85ffdthk9fp.apps.googleusercontent.com"

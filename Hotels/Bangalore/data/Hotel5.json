@@ -1,0 +1,193 @@
+{
+  "images": [
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel5-1.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel5-2.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel5-3.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel5-4.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel5-5.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel5-6.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel5-7.jpg" }
+  ],
+  "title": "Four Seasons Hotel",
+  "ratings": "5",
+  "ratings_no": "145",
+  "location": "Near Laggere, Bengaluru.",
+  "sub_title": "Four Seasons Hotel Bengaluru at Embassy One",
+  "guests": "2",
+  "beds": [true, false],
+  "bedrooms": [true, true],
+  "bathrooms": [true],
+  "description_short": "Situated in Bangalore, 29 km from Indian Institute of Science, Bangalore, Four Seasons Hotel Bengaluru at Embassy ONE features accommodation with a restaurant, free private parking, an outdoor swimming pool and a bar. Each accommodation at the 5-star hotel has garden views, and guests can enjoy access to a garden and to a terrace. The accommodation provides a 24-hour front desk, room service and currency exchange for ruguests. The elegantly appointed rooms come with air conditioning, a flat-screen TV with satellite channels, an electric tea pot and a coffee machine, a shower, a hairdryer and a desk. Rooms have adjoining spa-like bathrooms equipped with a bath and complimentary premium toiletries. Some accommodations at the hotel also feature a separate seating area while some have pool views and private garden access. Guests at Four Seasons Hotel Bengaluru can enjoy a continental or a buffet breakfast at the award winning restaurant, CUR8. The hotel has a host of world class restaurants like CUR8, The Lobby Lounge & Terrace, The Collection with the choicest selection of world whiskies and a Pool Bar in a picturesque poolside setting. Gourmet coffee, tea, pastries and confections are available at the retail section of CUR8.",
+  "the_space": "Quarantine protocols are being followed as per local government authorities\nShared resources in common areas are properly sanitized\nHotel staff is trained on hygiene guidelines\nGuests with fever are not allowed\nOnly those guests with safe status on Aarogya Setu app are allowed\nHand sanitizer is provided in guest accommodation and common areas\nThermal screening is done at entry and exit points",
+  "guest_access": "Guests have access to the resorts swimming pool",
+  "guest_access_points": [
+    "Elderly-friendly/Disabled-friendly property",
+    "Accessible bed height",
+    "The entire unit wheelchair accessible",
+    "The property have a wide entryway"
+  ],
+  "other": "Does not allow private parties or events\nVisitors are allowed",
+  "amenities": {
+    "lift": true,
+    "ac": true,
+    "wifi": true,
+    "parking": true,
+    "laptop": true,
+    "disabled": true,
+    "tv": true,
+    "infant": true
+  },
+  "amenities_basic": [
+    "Wifi",
+    "TV",
+    "Air Conditioning",
+    "Laptop-friendly workspace",
+    "Facilities for disabled Guests"
+  ],
+  "amenities_facilities": [
+    "Hot water",
+    "Fitness Center",
+    "Free parking",
+    "Sauna/Spa",
+    "Steamroom",
+    "Massage",
+    "Hot tub",
+    "Swimming pool",
+    "Garden",
+    "Game room"
+  ],
+  "amenities_dining": [
+    "Bar",
+    "Poolside bar",
+    "Room service",
+    "Coffee shop",
+    "Restaurants"
+  ],
+  "amenities_bb": [
+    "Hair dryer",
+    "Hangers",
+    "Shampoo",
+    "Bed linen",
+    "Soap",
+    "Daily Housekeeping",
+    "Laundry Service",
+    "Salon"
+  ],
+  "amenities_safety": [
+    "Fire Extinguisher",
+    "Smoke alarm",
+    "Carbon monoxide alarm",
+    "First aid kit"
+  ],
+  "amenities_notincluded": ["Heating", "Tours", "Amusement activites"],
+  "rating_cleanliness": "5",
+  "rating_communication": "4.5",
+  "rating_checkin": "5",
+  "rating_accuracy": "4.5",
+  "rating_Loaction": "4.5",
+  "rating_value": "4.5",
+  "reviews": [
+    {
+      "name": "Vinay S Gowda",
+      "dated": "October 2020",
+      "review": "We loved every moment spent at Four Seasons Bangalore. This was not the first time I had been to Four Seasons Bangalore,but this was the first time ever we checked in with our pet Bulldog Puppy and we chose the right place to spend the weekend. It was by younger brother's engagement and since we have a 60 days old puppy we had to select best place with all safety measures and decided Four Seasons Bangalore as it was close to house and as a backup I could go back home to comfort our pet, but trust me from the booking till the check out staff of FSbangalore made it very comfortable.  "
+    },
+    {
+      "name": "Aakriti J",
+      "dated": "October 2020",
+      "review": "I had ordered food from Far and East restaurant and the Chinese food was awesome. The quality and the taste of the food was very good. The fujian fried rice was something different that I tried and it was nice. Recommendation provided by Uddhav Bhatt was excellent and I would definitely recommend everyone to visit the Far And East at the Four Seasons. "
+    },
+    {
+      "name": "Puchka",
+      "dated": "October 2020",
+      "review": "Though the occupancy was 10% and run by skeletal staff, the hotel followed all the hygiene practices in view of the prevail8ng Covid 19 situation. We were alloted a suite which included a huge lounge and an adjoining double room n the 10th floor. The only hotel to allow pets. The staff went out of their way to make our stay as comfortable as possible. While we took breakfast in the restaurant, all other meals were room service and arrived in closed insulated trolleys. The staff had on the masks at all times. Social distancing maintained in the outdoor areas. For obvious reasons the swimming pool, sauna, gym, and outdoor activities were closed. Put of the four 4 in home restaurants only two were operating. Breakfast was served at the table, with no restrictions on the number of items chosen. We had a relaxed family weekend break in this hotel which opened just last year in May. Compliments to the entire staff for making our stay tension free and attending promptly to our needs. Highly recommended."
+    },
+    {
+      "name": "Medha",
+      "dated": "September 2020",
+      "review": "We had our wedding at the Four Seasons Hotel, Bengaluru last month. The venue was the Garden Room and Terrace. It was a great venue, as it gave us the opportunity to combine indoor and outdoor elements. The outdoor terrace is perfect in Bangalore weather, especially during cloudy days. The Four Seasons has a very classy ambience, right from the lobby to the restaurant to the banquet hall. The hotel helped us to set the perfect tone for our wedding (with help from our decorator, Poonam Mayank Sharma). The staff at the Four Seasons were all very helpful, and went out of their way to make our special day even better. We are especially thankful to Aastha and Apurve, who were always available to take our calls, and took great care of our guests before, during and after the wedding. Our guests also loved the food, thanks to the great menu prepared by the chef. The hotel also ensured that all COVID-19 protocols were properly followed"
+    },
+    {
+      "name": "Shrutimit",
+      "dated": "July 2020",
+      "review": "Tried the western bento box from the Four Seasons ! Such an excellent concept and so well presented ! Generous portions and a impressive list of options ! Top quality , tasty food. Fancy meal with complete safety - need of the hour "
+    },
+    {
+      "name": "Mona E",
+      "dated": "June 2020",
+      "review": "I visited the restaurant as I was craving some good sushi food. The service was excellent! The restaurant is at a high floor and offer amazing views of the city. It also has variety of seating areas in doors and out doors terraces. The food was very good and the menu had a wide selection of various Asian cuisine dishes. The pear chocolate desert I ordered and recommended by the waiter was a great choice and work of art!The restaurant manager Moinuddin went out of his way to give me a tour of the restaurant venues and I’m definitely going to come back again to try different items on the menu and enjoy the outdoor seating areas. Overall was a wonderful experience."
+    },
+    {
+      "name": "Layne R",
+      "dated": "May 2020",
+      "review": "Stayed 45 nights here and it was exactly what you'd expect from a Four Seasons, world class service in a world class facility. Attention to detail here was amazing from unpacking/packing your bags, exceptional food and beverage team, beautiful spa, S-Class car service, large mordern rooms and a management team that goes above and beyond. Undoubtedly the best property in Bangalore"
+    },
+    {
+      "name": "Sara W",
+      "dated": "March 2020",
+      "review": "First class luxury experience at the Four Seasons Bangalore. We stayed in a suite and had a large, comfortable bed and beautiful rooms. Bathroom was lovely! All the latest tech and very friendly staff. Room service was prompt. Meals at Cur8 were excellent and the selection overwhelming. Had a Balinese massage at the in house spa which was one of the best massages I ever had. Fitness center was clean and in good working order with all the equipment and space you could want for basic workouts. Sorry we didn't have time to get to the pool but it was dreamy to look at. Would absolutely stay at this property again and again if I were in Bangalore"
+    },
+    {
+      "name": "Pranav",
+      "dated": "February 2020",
+      "review": "Thank you Minu's Spa team to celebrate my Birthday, It was really Awesome !!! Thanks Aditya for everything and Thari for a great massage. NETTO is truly inspirational man, he always takes care of people so well and I have learned a lot of things from him. Minu, you have a great team.. well done and keep going!"
+    }
+  ],
+  "sitter_name": "Tailsmile",
+  "sitter_description": "This pet service company knows how busy the lives of pet parents are and offer a bunch of pet services to make their lives easier. Apart from dog walking and pet daycare, they also offer pet sitting services where they’ll come home and care for the fluffball while you’re away. ",
+  "sitter_mail": "tailsmile@gmail.com",
+  "sitter_phone": "9036388786",
+  "sitter_care": "4.6",
+  "sitter_value": "4.5",
+  "sitter_knowledge": "4.7",
+  "sitter_images": [
+    {
+      "url": "http://localhost:3001/Hotels/Bangalore/sitter/Hotel5-sitter1.jpg"
+    },
+    {
+      "url": "http://localhost:3001/Hotels/Bangalore/sitter/Hotel5-sitter2.jpg"
+    },
+    {
+      "url": "http://localhost:3001/Hotels/Bangalore/sitter/Hotel5-sitter3.jpg"
+    },
+    {
+      "url": "http://localhost:3001/Hotels/Bangalore/sitter/Hotel5-sitter4.jpg"
+    }
+  ],
+  "sitter_available": [true, true],
+
+  "spa_name": "Pet Paradise",
+  "spa_images": [
+    { "url": "http://localhost:3001/Hotels/Bangalore/spa/Hotel5-spa1.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/spa/Hotel5-spa2.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/spa/Hotel5-spa3.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/spa/Hotel5-spa4.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/spa/Hotel5-spa5.jpg" }
+  ],
+  "sap_services": [
+    "Pet Paradise is literally a paradise for all your dog needs and it'll pamper your pooch with their amazing services.",
+    "We offer grooming services that include basic clean-up services such as bathing, ear-cleaning, blow-drying, brush and de-shedding.",
+    "Paw Paradise also provides more indulgent facilities like hair styling, pawdicure and much more."
+  ],
+  "spa_mail": "pawparadise@gmail.com",
+  "spa_phone": "9632234002",
+  "spa_care": "4.8",
+  "spa_value": "4.6",
+  "spa_quality": "4.9",
+  "spa_available": [false, true],
+
+  "map_description_short": "8, Bellary Road, Ganganagar, Bengaluru 560032 India",
+  "map_description_getting_around": "3.4km from Cantonment Railway Station and Yashwanthpur Railway station, and 1.9km away from Bangalore Baptist Hospital",
+  "ppn": "11000",
+  "service_fee": "1230",
+  "taxes": "22",
+  "spa_cost": "1500",
+  "sitter_cost": "7500",
+
+  "host_phone": "452222222222",
+  "host_mail": "4seasons@gmail.com",
+  "hotelID": "010105",
+  "latitude": "13.0021494",
+  "longitude": "77.515841",
+  "type": "RESORT"
+}

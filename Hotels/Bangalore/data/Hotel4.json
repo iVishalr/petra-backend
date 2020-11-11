@@ -1,0 +1,169 @@
+{
+  "images": [
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel4-1.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel4-2.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel4-3.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel4-4.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel4-5.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel4-6.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel4-7.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel4-8.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel4-9.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel4-10.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel4-11.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/images/Hotel4-12.jpg" }
+  ],
+  "title": "Casa Cottage - Heritage property",
+  "ratings": "4.72",
+  "ratings_no": "25",
+  "location": "Richmond Town, Bengaluru.",
+  "sub_title": "Private room in bed and breakfast hosted by Manik",
+  "guests": "2",
+  "beds": [true],
+  "bedrooms": [true],
+  "bathrooms": [true],
+  "description_short": "We are a 3 star hotel in Bangalore, located in the heart of the city . This 1915 heritage property is lovingly restored in style, with all modern facilities yet retaining the old world charm. A green and peaceful oasis, known in Bangalore for its quiet, friendly ambiance.We are located at a walking distance from Brigade Road & M. G Road.We have 18 unique rooms here, and this listing is for 1 room and an attached, private bathroom.Breakfast is also optional on site for Rs. 250 per day",
+  "the_space": "Located in the heart of Bangalore, this 1915 heritage cottage, is lovingly restored in style with all modern facilities, retaining the antique-style feel.We offer an European ambience with modern facilities to fit your needs for a comfortable stay. Large airy rooms with comfortable sit in/sit out facility.Furnished in style with all modern amenities open to the lush green garden. One king size bed or twin beds, possibilities of an extra bed.Heritage property is highly rated in all travel guides, booking sites and recommended to traveller's by agencies around the world.Our hotel is calm and quiet. Our service is personal. We make you feel at home.",
+  "guest_access": "Guests at the Cottage have access to our dining areas, lawns, and open terraces. The quiet sit outs are a treat to enjoy a quiet time and replenish from long days in the city.",
+  "guest_access_points": [],
+  "other": "Attractions and distanceMG Road-1.5KM, Bangalore Palace-5KM, Tipu Sultan Palace 5KM, Cubbon Park-2KM, Lalbagh Botanical Gardens-3KM.Check-in time: 1PMCheck-out time:11AMPossibility to have breakfast on site at a nominal fee.AmenitiesEach room is equipped with an AC and attached bathroom",
+  "amenities": {
+    "lift": true,
+    "ac": true,
+    "wifi": true,
+    "parking": true,
+    "laptop": true,
+    "disabled": false,
+    "tv": true,
+    "infant": false
+  },
+  "amenities_basic": [
+    "Wifi",
+    "TV",
+    "Air Conditioning",
+    "Laptop-friendly workspace",
+    "Iron",
+    "Washing machine",
+    "Essentials",
+    "Hot water"
+  ],
+  "amenities_facilities": [
+    "Free parking on premises",
+    "Lift",
+    "Free on-street parking"
+  ],
+  "amenities_dining": ["Kitchen", "Breakfast", "Refrigerator"],
+  "amenities_bb": ["Hair dryer", "Hanger", "Shampoo", "Bed linen"],
+  "amenities_safety": ["Fire Extinguisher", "First aid kit"],
+  "amenities_notincluded": [
+    "Smoke alarms",
+    "Heating",
+    "Private Entrance",
+    "Carbon Monoxide"
+  ],
+  "rating_cleanliness": "4.8",
+  "rating_communication": "4.9",
+  "rating_checkin": "4.9",
+  "rating_accuracy": "4.8",
+  "rating_Loaction": "4.8",
+  "rating_value": "4.6",
+  "reviews": [
+    {
+      "name": "Poornima",
+      "dated": "March 2020",
+      "review": "We reached Bengaluru in early morning. Manik helped us for early check in. Place was really nice and clean. Common areas are not much spacious but everything is beautiful in cottage. Place is calm.   "
+    },
+    {
+      "name": "Rajen",
+      "dated": "December 2019",
+      "review": "very well located cosy place away from the noise of the city.   "
+    },
+    {
+      "name": "Saksham",
+      "dated": "November 2019",
+      "review": "It was my first time staying here and it was amazing! Beautiful interiors, open spaces, delicious breakfast and a gorgeous house. WiFi could be better in some corners but that’s about it. It was perfect! "
+    },
+    {
+      "name": "Sumita",
+      "dated": "July 2019",
+      "review": " An oasis in the middle of the city. Lovely, spacious and airy rooms. The sit out areas outside the rooms is lovely. suggest anyone having difficulty in climbing narrow stairs should ask for a ground floor room though we enjoyed the upstairs ones. Walking distance from some lovely cafe's and restaurants.  "
+    },
+    {
+      "name": "Isha",
+      "dated": "June 2019",
+      "review": "This property is the best combination of calm and pretty. Hidden gem in the heart of Bangalore, the place has an old school charm and helps you forget about the city life. Clean big rooms, nothing fancy about the place. It's awesome "
+    },
+    {
+      "name": "Ananya",
+      "dated": "March 2019",
+      "review": "Loved the pretty and quaint little place. Had a homely vibe. Will definitely be back soon. Thank you"
+    },
+    {
+      "name": "Gautam",
+      "dated": "November 2018",
+      "review": "Lovely old home - super comfortable stay. The staff is amazing - made us feel right at home and also let us change our room last minute because my friends foot was hurt! Thank you for making Bangalore amazingly accessible and fun! Highly recommended."
+    },
+    {
+      "name": "Anjeli",
+      "dated": "June 2019",
+      "review": "Stayed in 2 different rooms during my stay in bangalore and both were very clean and well airated. Nice common dining room and garden, helpful staff and great host. In short place to be in bangalore.. Highly recommended."
+    }
+  ],
+  "sitter_name": "Tailsmile",
+  "sitter_description": "This pet service company knows how busy the lives of pet parents are and offer a bunch of pet services to make their lives easier. Apart from dog walking and pet daycare, they also offer pet sitting services where they’ll come home and care for the fluffball while you’re away. ",
+  "sitter_mail": "tailsmile@gmail.com",
+  "sitter_phone": "9036388786",
+  "sitter_care": "4.6",
+  "sitter_value": "4.5",
+  "sitter_knowledge": "4.7",
+  "sitter_images": [
+    {
+      "url": "http://localhost:3001/Hotels/Bangalore/sitter/Hotel4-sitter1.jpg"
+    },
+    {
+      "url": "http://localhost:3001/Hotels/Bangalore/sitter/Hotel4-sitter2.jpg"
+    },
+    {
+      "url": "http://localhost:3001/Hotels/Bangalore/sitter/Hotel4-sitter3.jpg"
+    },
+    {
+      "url": "http://localhost:3001/Hotels/Bangalore/sitter/Hotel4-sitter4.jpg"
+    }
+  ],
+  "sitter_available": [true, true],
+
+  "spa_name": "Pet Paradise",
+  "spa_images": [
+    { "url": "http://localhost:3001/Hotels/Bangalore/spa/Hotel4-spa1.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/spa/Hotel4-spa2.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/spa/Hotel4-spa3.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/spa/Hotel4-spa4.jpg" },
+    { "url": "http://localhost:3001/Hotels/Bangalore/spa/Hotel4-spa5.jpg" }
+  ],
+  "sap_services": [
+    "Pet Paradise is literally a paradise for all your dog needs and it'll pamper your pooch with their amazing services.",
+    "We offer grooming services that include basic clean-up services such as bathing, ear-cleaning, blow-drying, brush and de-shedding.",
+    "Paw Paradise also provides more indulgent facilities like hair styling, pawdicure and much more."
+  ],
+  "spa_mail": "pawparadise@gmail.com",
+  "spa_phone": "9632234002",
+  "spa_care": "4.8",
+  "spa_value": "4.6",
+  "spa_quality": "4.9",
+  "spa_available": [true, true],
+
+  "map_description_short": "We are located in a quiet neighborhood with all the amenities nearby.Shopping areas such as Brigade Road and MG Road are within 10 mins by walk. Ranging from all large clothing brands, Starbucks, Dunkin Doughnuts and malls, you will find all you need close by.Supermarkets are 300 meters away, located on Wellington Street.With over 100 restaurants within 10 kms, you have a choice of quality eats, or you can get them delivered here.There is an auto rickshaw stand right around the corner\nLocation – neighborhood description\nConveniently located in the heart of Bangalore city, the cottage is a good starting point for your excursions. All major tourist attractions & business centers are nearby.\nLocated on Clapham Street, a small street in Richmond Town, we combine peace of mind and easy access to all parts of the city!",
+  "map_description_getting_around": "Auto Rickshaws and taxi apps (Uber, Ola..) are a cheap and convenient way of transport in the city.",
+  "ppn": "2200",
+  "service_fee": "311",
+  "taxes": "18",
+  "spa_cost": "500",
+  "sitter_cost": "150",
+
+  "host_phone": "1234567890",
+  "host_mail": "manikc@gmail.com",
+  "hotelID": "010104",
+  "latitude": "12.9643858",
+  "longitude": "77.5955317",
+  "type": "HOTEL/HOME"
+}
