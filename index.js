@@ -462,32 +462,82 @@ app.post("/auth/google/account/", function (req, res) {
 
 app.post("/auth/google/account/search/", function (req, res) {
   console.log(req.body);
-  Hotel.findOne({ _id: "INDTNCH" }, function (err, hotel) {
-    if (err) {
-      res.status(500).json({
-        error: "There was an error retrieving data from database.",
-      });
-    } else {
-      res.send({
-        results: hotel.hotelList,
-      });
-    }
-  });
+  if (req.body.Query === "Chennai, India")
+    Hotel.findOne({ _id: "INDTNCH" }, function (err, hotel) {
+      if (err) {
+        res.status(500).json({
+          error: "There was an error retrieving data from database.",
+        });
+      } else {
+        res.send({
+          results: hotel.hotelList,
+        });
+      }
+    });
+  else if (req.body.Query === "Bangalore, India")
+    Hotel.findOne({ _id: "INDKABLR" }, function (err, hotel) {
+      if (err) {
+        res.status(500).json({
+          error: "There was an error retrieving data from database.",
+        });
+      } else {
+        res.send({
+          results: hotel.hotelList,
+        });
+      }
+    });
+  else if (req.body.Query === "Mumbai, India")
+    Hotel.findOne({ _id: "INDMHMU" }, function (err, hotel) {
+      if (err) {
+        res.status(500).json({
+          error: "There was an error retrieving data from database.",
+        });
+      } else {
+        res.send({
+          results: hotel.hotelList,
+        });
+      }
+    });
 });
 
 app.post("/search/", function (req, res) {
   console.log(req.body);
-  Hotel.findOne({ _id: "INDTNCH" }, function (err, hotel) {
-    if (err) {
-      res.status(500).json({
-        error: "There was an error retrieving data from database.",
-      });
-    } else {
-      res.send({
-        results: hotel.hotelList,
-      });
-    }
-  });
+  if (req.body.Query === "Chennai, India")
+    Hotel.findOne({ _id: "INDTNCH" }, function (err, hotel) {
+      if (err) {
+        res.status(500).json({
+          error: "There was an error retrieving data from database.",
+        });
+      } else {
+        res.send({
+          results: hotel.hotelList,
+        });
+      }
+    });
+  else if (req.body.Query === "Bangalore, India")
+    Hotel.findOne({ _id: "INDKABLR" }, function (err, hotel) {
+      if (err) {
+        res.status(500).json({
+          error: "There was an error retrieving data from database.",
+        });
+      } else {
+        res.send({
+          results: hotel.hotelList,
+        });
+      }
+    });
+  else if (req.body.Query === "Mumbai, India")
+    Hotel.findOne({ _id: "INDMHMU" }, function (err, hotel) {
+      if (err) {
+        res.status(500).json({
+          error: "There was an error retrieving data from database.",
+        });
+      } else {
+        res.send({
+          results: hotel.hotelList,
+        });
+      }
+    });
 });
 
 app.get("/auth/google/account/hotel/:hotelID", function (req, res) {
