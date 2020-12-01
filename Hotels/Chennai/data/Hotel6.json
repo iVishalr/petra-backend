@@ -141,7 +141,7 @@
     { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter22.jpg" },
     { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter23.jpg" },
     { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter24.jpg" },
-    { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter25,jpg" }
+    { "url": "http://localhost:3001/Hotels/Chennai/sitter/sitter25.jpg" }
   ],
   "sitter_available": [true, true],
 
