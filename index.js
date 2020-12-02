@@ -71,6 +71,7 @@ const hotelListSchema = new mongoose.Schema({
     latitude: Number,
     longitude: Number,
   },
+  type: String,
 });
 
 const hotelSchema = new mongoose.Schema({
@@ -197,7 +198,7 @@ const HotelCollection = new mongoose.model(
 //Path to be changed after insertion : './Hotels/Bangalore/data/Hotel<new>.json'
 
 // var newHotel1 = JSON.parse(
-//   fs.readFileSync("./Hotels/Chennai/data/Hotel5.json", "utf8")
+//   fs.readFileSync("./Hotels/Chennai/data/Hotel6.json", "utf8")
 // );
 // var newHotelCollection = new HotelCollection(newHotel1);
 
@@ -211,22 +212,22 @@ const HotelCollection = new mongoose.model(
 //-------Uncomment the following code to insert hotels based on cities------//
 
 // var newHotel1 = JSON.parse(
-//   fs.readFileSync("./Hotels/Chennai/data/Hotel1.json", "utf8")
+//   fs.readFileSync("./Hotels/Bangalore/data/Hotel1.json", "utf8")
 // );
 // var newHotel2 = JSON.parse(
-//   fs.readFileSync("./Hotels/Chennai/data/Hotel2.json", "utf8")
+//   fs.readFileSync("./Hotels/Bangalore/data/Hotel2.json", "utf8")
 // );
 // var newHotel3 = JSON.parse(
-//   fs.readFileSync("./Hotels/Chennai/data/Hotel3.json", "utf8")
+//   fs.readFileSync("./Hotels/Bangalore/data/Hotel3.json", "utf8")
 // );
 // var newHotel4 = JSON.parse(
-//   fs.readFileSync("./Hotels/Chennai/data/Hotel4.json", "utf8")
+//   fs.readFileSync("./Hotels/Bangalore/data/Hotel4.json", "utf8")
 // );
 // var newHotel5 = JSON.parse(
-//   fs.readFileSync("./Hotels/Chennai/data/Hotel5.json", "utf8")
+//   fs.readFileSync("./Hotels/Bangalore/data/Hotel5.json", "utf8")
 // );
 // var newHotel6 = JSON.parse(
-//   fs.readFileSync("./Hotels/Chennai/data/Hotel6.json", "utf8")
+//   fs.readFileSync("./Hotels/Bangalore/data/Hotel6.json", "utf8")
 // );
 
 // // Note: Change the _id property on json given below for a new city
@@ -236,15 +237,14 @@ const HotelCollection = new mongoose.model(
 // // Kolkata - INDWBKO
 // // Delhi - INDHYDE
 // // Hyderabad - INDTEHY
-
 // newHotel = new Hotel({
-//   _id: "INDTNCH",
-//   City: "Chennai",
-//   State: "Tamil Nadu",
+//   _id: "INDKABLR",
+//   City: "Bangalore",
+//   State: "Karnataka",
 //   Country: "India",
 //   CityLocation: {
-//     latitude: 13.0474878,
-//     longitude: 80.0689252,
+//     latitude: 12.9538477,
+//     longitude: 77.3507442,
 //   },
 //   hotelList: [
 //     {
@@ -253,20 +253,18 @@ const HotelCollection = new mongoose.model(
 //       title: newHotel1.title,
 //       description: newHotel1.sub_title,
 //       star: Number(newHotel1.ratings),
-//       price: "₹" + newHotel1.ppn + "/night",
-//       total:
-//         "₹" +
-//         String(
-//           Number(newHotel1.ppn) +
-//             Number(newHotel1.taxes) +
-//             Number(newHotel1.service_fee)
-//         ) +
-//         "/night",
+//       price: newHotel1.ppn,
+//       total: String(
+//         Number(newHotel1.ppn) +
+//           Number(newHotel1.taxes) +
+//           Number(newHotel1.service_fee)
+//       ),
 //       hotelID: newHotel1.hotelID,
 //       coordinates: {
 //         latitude: Number(newHotel1.latitude),
 //         longitude: Number(newHotel1.longitude),
 //       },
+//       type: newHotel1.type,
 //     },
 //     {
 //       img: newHotel2.images[0].url,
@@ -274,20 +272,18 @@ const HotelCollection = new mongoose.model(
 //       title: newHotel2.title,
 //       description: newHotel2.sub_title,
 //       star: Number(newHotel2.ratings),
-//       price: "₹" + newHotel2.ppn + "/night",
-//       total:
-//         "₹" +
-//         String(
-//           Number(newHotel2.ppn) +
-//             Number(newHotel2.taxes) +
-//             Number(newHotel2.service_fee)
-//         ) +
-//         "/night",
+//       price: newHotel2.ppn,
+//       total: String(
+//         Number(newHotel2.ppn) +
+//           Number(newHotel2.taxes) +
+//           Number(newHotel2.service_fee)
+//       ),
 //       hotelID: newHotel2.hotelID,
 //       coordinates: {
 //         latitude: Number(newHotel2.latitude),
 //         longitude: Number(newHotel2.longitude),
 //       },
+//       type: newHotel2.type,
 //     },
 //     {
 //       img: newHotel3.images[6].url,
@@ -295,20 +291,19 @@ const HotelCollection = new mongoose.model(
 //       title: newHotel3.title,
 //       description: newHotel3.sub_title,
 //       star: Number(newHotel3.ratings),
-//       price: "₹" + newHotel3.ppn + "/night",
-//       total:
-//         "₹" +
-//         String(
-//           Number(newHotel3.ppn) +
-//             Number(newHotel3.taxes) +
-//             Number(newHotel3.service_fee)
-//         ) +
-//         "/night",
+//       price: newHotel3.ppn,
+//       total: String(
+//         Number(newHotel3.ppn) +
+//           Number(newHotel3.taxes) +
+//           Number(newHotel3.service_fee)
+//       ),
+
 //       hotelID: newHotel3.hotelID,
 //       coordinates: {
 //         latitude: Number(newHotel3.latitude),
 //         longitude: Number(newHotel3.longitude),
 //       },
+//       type: newHotel3.type,
 //     },
 //     {
 //       img: newHotel4.images[0].url,
@@ -316,20 +311,19 @@ const HotelCollection = new mongoose.model(
 //       title: newHotel4.title,
 //       description: newHotel4.sub_title,
 //       star: Number(newHotel4.ratings),
-//       price: "₹" + newHotel4.ppn + "/night",
-//       total:
-//         "₹" +
-//         String(
-//           Number(newHotel4.ppn) +
-//             Number(newHotel4.taxes) +
-//             Number(newHotel4.service_fee)
-//         ) +
-//         "/night",
+//       price: newHotel4.ppn,
+//       total: String(
+//         Number(newHotel4.ppn) +
+//           Number(newHotel4.taxes) +
+//           Number(newHotel4.service_fee)
+//       ),
+
 //       hotelID: newHotel4.hotelID,
 //       coordinates: {
 //         latitude: Number(newHotel4.latitude),
 //         longitude: Number(newHotel4.longitude),
 //       },
+//       type: newHotel4.type,
 //     },
 //     {
 //       img: newHotel5.images[0].url,
@@ -337,20 +331,18 @@ const HotelCollection = new mongoose.model(
 //       title: newHotel5.title,
 //       description: newHotel5.sub_title,
 //       star: Number(newHotel5.ratings),
-//       price: "₹" + newHotel5.ppn + "/night",
-//       total:
-//         "₹" +
-//         String(
-//           Number(newHotel5.ppn) +
-//             Number(newHotel5.taxes) +
-//             Number(newHotel5.service_fee)
-//         ) +
-//         "/night",
+//       price: newHotel5.ppn,
+//       total: String(
+//         Number(newHotel5.ppn) +
+//           Number(newHotel5.taxes) +
+//           Number(newHotel5.service_fee)
+//       ),
 //       hotelID: newHotel5.hotelID,
 //       coordinates: {
 //         latitude: Number(newHotel5.latitude),
 //         longitude: Number(newHotel5.longitude),
 //       },
+//       type: newHotel5.type,
 //     },
 //     {
 //       img: newHotel6.images[0].url,
@@ -358,20 +350,18 @@ const HotelCollection = new mongoose.model(
 //       title: newHotel6.title,
 //       description: newHotel6.sub_title,
 //       star: Number(newHotel6.ratings),
-//       price: "₹" + newHotel6.ppn + "/night",
-//       total:
-//         "₹" +
-//         String(
-//           Number(newHotel6.ppn) +
-//             Number(newHotel6.taxes) +
-//             Number(newHotel6.service_fee)
-//         ) +
-//         "/night",
+//       price: newHotel6.ppn,
+//       total: String(
+//         Number(newHotel6.ppn) +
+//           Number(newHotel6.taxes) +
+//           Number(newHotel6.service_fee)
+//       ),
 //       hotelID: newHotel6.hotelID,
 //       coordinates: {
 //         latitude: Number(newHotel6.latitude),
 //         longitude: Number(newHotel6.longitude),
 //       },
+//       type: newHotel6.type,
 //     },
 //   ],
 // });
