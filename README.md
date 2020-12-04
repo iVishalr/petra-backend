@@ -1,5 +1,6 @@
-# petra-backend
+# PeTra Backend
 
+**README will be updated soon!**
 ---
 
 ## How to run?
