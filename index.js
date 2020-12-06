@@ -4,12 +4,15 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const { OAuth2Client } = require("google-auth-library");
 const jwt = require("jsonwebtoken");
-const fs = require("fs");
+const userSchema = require("./models/users");
+const hotelSchema = require("./models/hotelList");
+const hotelCollection = require("./models/hotels");
+require("dotenv").config();
 
 const app = express();
 
 const configureOptions = {
-  origin: ["http://localhost:3000", "http://localhost:3000"],
+  origin: ["http://localhost:3000", "http://localhost:5000"],
   methods: "GET,POST,PUT,DELETE",
 };
 
@@ -34,155 +37,8 @@ mongoose.connect(
   }
 );
 
-const userSchema = new mongoose.Schema({
-  _id: {
-    type: String,
-  },
-  tokenId: {
-    type: String,
-  },
-  googleId: {
-    type: String,
-  },
-  name: {
-    type: String,
-  },
-  email: {
-    type: String,
-  },
-  imageUrl: {
-    type: String,
-  },
-  perks: {
-    type: String,
-  },
-});
-
-const hotelListSchema = new mongoose.Schema({
-  img: String,
-  location: String,
-  title: String,
-  description: String,
-  star: Number,
-  price: String,
-  total: String,
-  hotelID: Number,
-  coordinates: {
-    latitude: Number,
-    longitude: Number,
-  },
-  type: String,
-});
-
-const hotelSchema = new mongoose.Schema({
-  _id: {
-    type: String,
-  },
-  City: String,
-  State: String,
-  Country: String,
-  CityLocation: {
-    latitude: Number,
-    longitude: Number,
-  },
-  hotelList: [hotelListSchema],
-});
-
-const hotelCollection = new mongoose.Schema({
-  _id: String,
-  hotelID: Number,
-  images: [
-    {
-      url: String,
-    },
-  ],
-  title: String,
-  ratings: String,
-  ratings_no: String,
-  location: String,
-  sub_title: String,
-  guests: String,
-  beds: [Boolean],
-  bedrooms: [Boolean],
-  bathrooms: [Boolean],
-  description_short: String,
-  the_space: String,
-  guest_access: String,
-  guest_access_points: [String],
-  other: String,
-  amenities: {
-    lift: Boolean,
-    ac: Boolean,
-    wifi: Boolean,
-    parking: Boolean,
-    laptop: Boolean,
-    disabled: Boolean,
-    tv: Boolean,
-    infant: Boolean,
-  },
-  amenities_basic: [String],
-  amenities_facilities: [String],
-  amenities_dining: [String],
-  amenities_bb: [String],
-  amenities_safety: [String],
-  amenities_notincluded: [String],
-  rating_cleanliness: String,
-  rating_checkin: String,
-  rating_communication: String,
-  rating_accuracy: String,
-  rating_Loaction: String,
-  rating_value: String,
-  reviews: [
-    {
-      name: String,
-      dated: String,
-      review: String,
-    },
-  ],
-  sitter_name: String,
-  sitter_description: String,
-  sitter_mail: String,
-  sitter_phone: String,
-  sitter_care: String,
-  sitter_value: String,
-  sitter_knowledge: String,
-  sitter_images: [
-    {
-      url: String,
-    },
-  ],
-  sitter_available: [Boolean],
-  spa_name: String,
-  spa_images: [
-    {
-      url: String,
-    },
-  ],
-  sap_services: [String],
-  spa_mail: String,
-  spa_phone: String,
-  spa_care: String,
-  spa_value: String,
-  spa_quality: String,
-  spa_available: [Boolean],
-  map_description_short: String,
-  map_description_getting_around: String,
-  ppn: String,
-  service_fee: String,
-  taxes: String,
-  spa_cost: String,
-  sitter_cost: String,
-  host_phone: String,
-  host_mail: String,
-  latitude: String,
-  longitude: String,
-  type: String,
-});
-
 const User = new mongoose.model("PetraUser", userSchema);
-
 const Hotel = new mongoose.model("Hotel", hotelSchema);
-
 const HotelCollection = new mongoose.model(
   "ALLhotelCollection",
   hotelCollection
@@ -375,9 +231,7 @@ const HotelCollection = new mongoose.model(
 
 //-------------------------------Till Here-------------------------------------//
 
-const client = new OAuth2Client(
-  "1065157938718-eudu1eo9ic1l7dduroe3n85ffdthk9fp.apps.googleusercontent.com"
-);
+const client = new OAuth2Client(process.env.CLIENT_ID);
 
 app.get("/", function (req, res) {
   res.send("Hello World!");
@@ -390,8 +244,7 @@ app.post("/auth/google/account/", function (req, res) {
   client
     .verifyIdToken({
       idToken: tokenId,
-      audience:
-        "1065157938718-eudu1eo9ic1l7dduroe3n85ffdthk9fp.apps.googleusercontent.com",
+      audience: process.env.CLIENT_ID,
     })
     .then((response) => {
       const { email_verified, name, email } = response.payload;
@@ -405,8 +258,10 @@ app.post("/auth/google/account/", function (req, res) {
             if (user) {
               const token = jwt.sign(
                 { _id: user._id },
-                "This is a secret that we will keep it as a secret!",
-                { expiresIn: "7d" }
+                process.env.CLIENT_SECRET,
+                {
+                  expiresIn: "7d",
+                }
               );
               const { _id, name, email, imageUrl, perks } = user;
               res.json({
@@ -429,8 +284,10 @@ app.post("/auth/google/account/", function (req, res) {
                 if (user) {
                   const token = jwt.sign(
                     { _id: user._id },
-                    "This is a secret that we will keep it as a secret!",
-                    { expiresIn: "7d" }
+                    process.env.CLIENT_SECRET,
+                    {
+                      expiresIn: "7d",
+                    }
                   );
                   const { _id, name, email, imageUrl, perks } = newUser;
                   res.json({
